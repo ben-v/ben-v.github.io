@@ -1,4 +1,6 @@
-// import M from "materialize-css";
+import { useState } from 'react';
+
+import M from "materialize-css";
 import { memo, useEffect, useRef } from "react";
 // import { Carousel } from "react-materialize";
 
@@ -24,12 +26,18 @@ import { memo, useEffect, useRef } from "react";
 // };
 
 const ProjectSlider = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
   useEffect(() => {
     M.AutoInit();
   }, []);
 
   return (
-    <div></div>
+    <div>replace with react-material-ui-carousel</div>
     // <Carousel
     //   options={{
     //     fullWidth: true,
