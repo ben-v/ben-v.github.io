@@ -2,7 +2,6 @@ import Head from "next/head";
 import { Fragment, memo, useContext } from "react";
 import { Context } from "../context/context";
 import Preloader from "./Preloader";
-import Switcher from "./Switcher";
 
 const Layout = ({ children }) => {
   const { color } = useContext(Context);
@@ -35,10 +34,8 @@ const Layout = ({ children }) => {
           href={`css/skins/${color}.css`}
         />
 
-        <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
       </Head>
       <Preloader />
-      <Switcher />
       <div className="wrapper">{children}</div>
     </Fragment>
   );
