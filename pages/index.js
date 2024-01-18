@@ -1,6 +1,5 @@
 import { memo, useContext, useEffect } from "react";
 import Portfolio from "../src/components/Portfolio";
-import TypingAnimation from "../src/components/TypingAnimation";
 import { Context } from "../src/context/context";
 
 import dynamic from "next/dynamic";
@@ -37,9 +36,7 @@ const Index = () => {
               <div className="title-heading">
                 <div className="selector uppercase" id="selector">
                   <h3 className="ah-headline p-none m-none clip is-full-width">
-                    <span className="font-weight-400">Hi There ! {`I'm`}</span>
-                    <span className="my-name">Mark Smith</span>
-                    <TypingAnimation />
+                    <span className="my-name">Ben Visintainer</span>
                   </h3>
                 </div>
               </div>

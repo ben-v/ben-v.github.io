@@ -1388,7 +1388,7 @@ ul.social-intro li a {
   transition: .3s ease-out;
 }
 
-.bl-main>section:nth-child(4).bl-expand ul.social-intro li a {
+.bl-main>section:nth-child(4).bl-expand ul.social-intro li a, .social-icon {
   width: 35px;
   height: 35px;
   display: block;

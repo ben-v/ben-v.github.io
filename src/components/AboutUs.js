@@ -322,11 +322,11 @@ const AboutUs = ({ dark }) => {
                 <ul className="second-font list-1">
                   <li>
                     <span className="font-weight-700">First Name: </span>
-                    Mark
+                    Ben
                   </li>
                   <li>
                     <span className="font-weight-700">Last Name: </span>
-                    Smith
+                    Visintainer
                   </li>
                   <li>
                     <span className="font-weight-700">Date of birth: </span>
@@ -362,7 +362,7 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span className="font-weight-700">Skype: </span>
-                    mark.smith
+                    ben-v
                   </li>
                 </ul>
               </div>

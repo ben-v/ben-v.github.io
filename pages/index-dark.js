@@ -4,7 +4,6 @@ import { Context } from "../src/context/context";
 
 import dynamic from "next/dynamic";
 import GetInTouch from "../src/components/GetInTouch";
-import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 
 const ProjectDetails = dynamic(
@@ -39,9 +38,7 @@ const IndexDark = () => {
               <div className="title-heading">
                 <div className="selector uppercase" id="selector">
                   <h3 className="ah-headline p-none m-none clip is-full-width">
-                    <span className="font-weight-400">Hi There ! {`I'm`}</span>
-                    <span className="my-name">Linda Smith</span>
-                    <TypingAnimation />
+                    <span className="my-name">Ben Visintainer</span>
                   </h3>
                 </div>
               </div>
