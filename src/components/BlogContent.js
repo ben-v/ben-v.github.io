@@ -37,11 +37,13 @@ const BlogContent = ({ dark }) => {
                 <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
                   <a>
                     {" "}
-                    <img
-                      className="responsive-img"
-                      src="images/blog/blog-post-1.jpg"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        className="responsive-img"
+                        src="images/blog/blog-post-1.jpg"
+                        alt=""
+                      />
+                    </picture>
                   </a>
                 </Link>
               </figure>
@@ -102,11 +104,13 @@ const BlogContent = ({ dark }) => {
                 <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
                   <a>
                     {" "}
-                    <img
-                      className="responsive-img"
-                      src="images/blog/blog-post-2.jpg"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        className="responsive-img"
+                        src="images/blog/blog-post-2.jpg"
+                        alt=""
+                      />
+                    </picture>
                   </a>
                 </Link>
               </figure>
@@ -166,11 +170,13 @@ const BlogContent = ({ dark }) => {
               <figure className="blog-figure">
                 <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
                   <a>
-                    <img
-                      className="responsive-img"
-                      src="images/blog/blog-post-3.jpg"
-                      alt=""
-                    />
+                    <picture>
+                      <img
+                        className="responsive-img"
+                        src="images/blog/blog-post-3.jpg"
+                        alt=""
+                      />
+                    </picture>
                   </a>
                 </Link>
               </figure>
@@ -273,7 +279,12 @@ const BlogContent = ({ dark }) => {
                 <li>
                   <div className="posts-thumb pull-left">
                     <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
-                      <img alt="img" src="images/blog/blog-post-small-1.jpg" />
+                      <picture>
+                        <img
+                          alt="img"
+                          src="images/blog/blog-post-small-1.jpg"
+                        />
+                      </picture>
                     </Link>
                   </div>
                   <div className="post-info">
@@ -293,7 +304,12 @@ const BlogContent = ({ dark }) => {
                 <li>
                   <div className="posts-thumb pull-left">
                     <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
-                      <img alt="img" src="images/blog/blog-post-small-2.jpg" />
+                      <picture>
+                        <img
+                          alt="img"
+                          src="images/blog/blog-post-small-2.jpg"
+                        />
+                      </picture>
                     </Link>
                   </div>
                   <div className="post-info">
@@ -313,7 +329,12 @@ const BlogContent = ({ dark }) => {
                 <li>
                   <div className="posts-thumb pull-left">
                     <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
-                      <img alt="img" src="images/blog/blog-post-small-3.jpg" />
+                      <picture>
+                        <img
+                          alt="img"
+                          src="images/blog/blog-post-small-3.jpg"
+                        />
+                      </picture>
                     </Link>
                   </div>
                   <div className="post-info">

@@ -299,11 +299,13 @@ const AboutUs = ({ dark }) => {
           <div className="row">
             {/* Picture Starts */}
             <div className="col s12 m4 profile-picture show-on-medium-and-down section-padding">
+              <picture>
               <img
                 src="images/men.jpg"
                 className="responsive-img my-picture"
                 alt="My Photo"
               />
+              </picture>
             </div>
             {/* Picture Ends */}
             <div className="col s12 m8 l12 xl12 personal-info section-padding">

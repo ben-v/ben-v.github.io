@@ -34,11 +34,13 @@ const SingleBlog = ({ dark }) => {
               </Link>
               {/* Figure Starts */}
               <figure className="blog-figure">
-                <img
-                  className="responsive-img"
-                  src="images/blog/blog-post-1.jpg"
-                  alt=""
-                />
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/blog/blog-post-1.jpg"
+                    alt=""
+                  />
+                </picture>
               </figure>
               {/* Figure Ends */}
               {/* Excerpt Starts */}
@@ -121,11 +123,13 @@ const SingleBlog = ({ dark }) => {
                   <li>
                     {/* Comment Starts */}
                     <div className="comment">
-                      <img
-                        className="comment-avatar pull-left"
-                        alt=""
-                        src="images/blog/user1.jpg"
-                      />
+                      <picture>
+                        <img
+                          className="comment-avatar pull-left"
+                          alt=""
+                          src="images/blog/user1.jpg"
+                        />
+                      </picture>
                       <div className="comment-body">
                         <div className="meta-data">
                           <span className="comment-author">Dalel Boubaker</span>
@@ -155,11 +159,13 @@ const SingleBlog = ({ dark }) => {
                       <li>
                         {/* Comment Starts */}
                         <div className="comment">
-                          <img
-                            className="comment-avatar pull-left"
-                            alt=""
-                            src="images/blog/user2.jpg"
-                          />
+                          <picture>
+                            <img
+                              className="comment-avatar pull-left"
+                              alt=""
+                              src="images/blog/user2.jpg"
+                            />
+                          </picture>
                           <div className="comment-body">
                             <div className="meta-data">
                               <span className="comment-author">
@@ -191,11 +197,13 @@ const SingleBlog = ({ dark }) => {
                     </ul>
                     {/* Comment Starts */}
                     <div className="comment last">
-                      <img
-                        className="comment-avatar pull-left"
-                        alt=""
-                        src="images/blog/user3.jpg"
-                      />
+                      <picture>
+                        <img
+                          className="comment-avatar pull-left"
+                          alt=""
+                          src="images/blog/user3.jpg"
+                        />
+                      </picture>
                       <div className="comment-body">
                         <div className="meta-data">
                           <span className="comment-author">Slim Hamdi</span>
@@ -322,10 +330,12 @@ const SingleBlog = ({ dark }) => {
                   <div className="posts-thumb pull-left">
                     <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
                       <a>
-                        <img
-                          alt="img"
-                          src="images/blog/blog-post-small-1.jpg"
-                        />
+                        <picture>
+                          <img
+                            alt="img"
+                            src="images/blog/blog-post-small-1.jpg"
+                          />
+                        </picture>
                       </a>
                     </Link>
                   </div>
@@ -347,10 +357,12 @@ const SingleBlog = ({ dark }) => {
                   <div className="posts-thumb pull-left">
                     <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
                       <a>
-                        <img
-                          alt="img"
-                          src="images/blog/blog-post-small-2.jpg"
-                        />
+                        <picture>
+                          <img
+                            alt="img"
+                            src="images/blog/blog-post-small-2.jpg"
+                          />
+                        </picture>
                       </a>
                     </Link>
                   </div>
@@ -372,10 +384,12 @@ const SingleBlog = ({ dark }) => {
                   <div className="posts-thumb pull-left">
                     <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
                       <a>
-                        <img
-                          alt="img"
-                          src="images/blog/blog-post-small-3.jpg"
-                        />
+                        <picture>
+                          <img
+                            alt="img"
+                            src="images/blog/blog-post-small-3.jpg"
+                          />
+                        </picture>
                       </a>
                     </Link>
                   </div>
