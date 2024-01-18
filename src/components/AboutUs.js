@@ -371,7 +371,7 @@ const AboutUs = ({ dark }) => {
               <a href="#" className="btn font-weight-700">
                 Download Resume <i className="fa fa-file-pdf-o" />
               </a>
-              <Link href={`/blog-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-dark`}>
                 <a className="btn btn-blog font-weight-700">
                   My Blog <i className="fa fa-edit" />
                 </a>

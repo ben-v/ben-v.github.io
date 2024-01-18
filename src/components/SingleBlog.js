@@ -27,7 +27,7 @@ const SingleBlog = ({ dark }) => {
           <div className="content col s12 m8 l8 xl8">
             {/* Article Starts */}
             <article>
-              <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-post-dark`}>
                 <a>
                   <h4>How to be a successful freelancer</h4>
                 </a>
@@ -99,7 +99,7 @@ const SingleBlog = ({ dark }) => {
                   </span>
                   <span>
                     <i className="fa fa-commenting" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>18</a>
                     </Link>
                   </span>
@@ -108,7 +108,7 @@ const SingleBlog = ({ dark }) => {
                   </span>
                   <span className="permalink">
                     <i className="fa fa-link" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>permalink</a>
                     </Link>
                   </span>
@@ -300,7 +300,7 @@ const SingleBlog = ({ dark }) => {
           <div className="sidebar col s12 m4 l4 xl4">
             <div className="row">
               <div className="col s6 m6 l6 xl6">
-                <Link href={`/blog-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-dark`}>
                   <a className="btn back">
                     <i className="fa fa-arrow-left" /> Blog
                   </a>
@@ -328,7 +328,7 @@ const SingleBlog = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>
                         <picture>
                           <img
@@ -341,7 +341,7 @@ const SingleBlog = ({ dark }) => {
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         <a>Why Themeforest is the best</a>
                       </Link>
                     </h4>
@@ -355,7 +355,7 @@ const SingleBlog = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>
                         <picture>
                           <img
@@ -368,7 +368,7 @@ const SingleBlog = ({ dark }) => {
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         <a>Collaborating with envato</a>
                       </Link>
                     </h4>
@@ -382,7 +382,7 @@ const SingleBlog = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>
                         <picture>
                           <img
@@ -395,7 +395,7 @@ const SingleBlog = ({ dark }) => {
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         <a>How to be a successful freelancer</a>
                       </Link>
                     </h4>

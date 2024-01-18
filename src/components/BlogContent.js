@@ -27,14 +27,14 @@ const BlogContent = ({ dark }) => {
           <div className="content col s12 m8 l8 xl8">
             {/* Article Starts */}
             <article>
-              <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-post-dark`}>
                 <a>
                   <h4>How to be a successful freelancer</h4>
                 </a>
               </Link>
               {/* Figure Starts */}
               <figure className="blog-figure">
-                <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-post-dark`}>
                   <a>
                     {" "}
                     <picture>
@@ -58,7 +58,7 @@ const BlogContent = ({ dark }) => {
                   dolor sit amet, consectetur adipiscing elit. Sed blandit massa
                   vel mauris ...
                 </p>
-                <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-post-dark`}>
                   <a className="col s12 m4 l4 xl4 waves-effect waves-light btn readmore font-weight-700">
                     Read more
                   </a>
@@ -73,7 +73,7 @@ const BlogContent = ({ dark }) => {
                   </span>
                   <span>
                     <i className="fa fa-commenting" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       18
                     </Link>
                   </span>
@@ -82,7 +82,7 @@ const BlogContent = ({ dark }) => {
                   </span>
                   <span className="permalink">
                     <i className="fa fa-link" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       permalink
                     </Link>
                   </span>
@@ -94,14 +94,14 @@ const BlogContent = ({ dark }) => {
             {/* Article Ends */}
             {/* Article Starts */}
             <article>
-              <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-post-dark`}>
                 <a>
                   <h4>Collaborating with envato</h4>
                 </a>
               </Link>
               {/* Figure Starts */}
               <figure className="blog-figure">
-                <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-post-dark`}>
                   <a>
                     {" "}
                     <picture>
@@ -125,7 +125,7 @@ const BlogContent = ({ dark }) => {
                   dolor sit amet, consectetur adipiscing elit. Sed blandit massa
                   vel mauris ...
                 </p>
-                <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-post-dark`}>
                   <a className="col s12 m4 l4 xl4 waves-effect waves-light btn readmore font-weight-700">
                     Read more
                   </a>
@@ -140,7 +140,7 @@ const BlogContent = ({ dark }) => {
                   </span>
                   <span>
                     <i className="fa fa-commenting" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       18
                     </Link>
                   </span>
@@ -149,7 +149,7 @@ const BlogContent = ({ dark }) => {
                   </span>
                   <span className="permalink">
                     <i className="fa fa-link" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       permalink
                     </Link>
                   </span>
@@ -161,14 +161,14 @@ const BlogContent = ({ dark }) => {
             {/* Article Ends */}
             {/* Article Starts */}
             <article>
-              <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-post-dark`}>
                 <a>
                   <h4>Why Themeforest is the best</h4>
                 </a>
               </Link>
               {/* Figure Starts */}
               <figure className="blog-figure">
-                <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-post-dark`}>
                   <a>
                     <picture>
                       <img
@@ -191,7 +191,7 @@ const BlogContent = ({ dark }) => {
                   dolor sit amet, consectetur adipiscing elit. Sed blandit massa
                   vel mauris ...
                 </p>
-                <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-post-dark`}>
                   <a className="col s12 m4 l4 xl4 waves-effect waves-light btn readmore font-weight-500">
                     Read more
                   </a>
@@ -206,7 +206,7 @@ const BlogContent = ({ dark }) => {
                   </span>
                   <span>
                     <i className="fa fa-commenting" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       18
                     </Link>
                   </span>
@@ -215,7 +215,7 @@ const BlogContent = ({ dark }) => {
                   </span>
                   <span className="permalink">
                     <i className="fa fa-link" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       permalink
                     </Link>
                   </span>
@@ -278,7 +278,7 @@ const BlogContent = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <picture>
                         <img
                           alt="img"
@@ -289,7 +289,7 @@ const BlogContent = ({ dark }) => {
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         Why Themeforest is the best
                       </Link>
                     </h4>
@@ -303,7 +303,7 @@ const BlogContent = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <picture>
                         <img
                           alt="img"
@@ -314,7 +314,7 @@ const BlogContent = ({ dark }) => {
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         Collaborating with envato
                       </Link>
                     </h4>
@@ -328,7 +328,7 @@ const BlogContent = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <picture>
                         <img
                           alt="img"
@@ -339,7 +339,7 @@ const BlogContent = ({ dark }) => {
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         How to be a successful freelancer
                       </Link>
                     </h4>
