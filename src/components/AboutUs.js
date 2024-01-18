@@ -314,10 +314,7 @@ const AboutUs = ({ dark }) => {
               </h6>
               <div className="col m12 l12 xl9 p-none">
                 <p className="second-font">
-                  {`I'm`} a Freelance Web Designer &amp; Developer based in
-                  Moscow, Russia, I have serious passion for UI effects,
-                  animations and creating intuitive, with over a decade of
-                  experience.
+                I specialize in building highly productive and effective engineering teams for small to medium-sized businesses. My approach is rooted in the belief that the best solutions emerge from diverse minds working together. I am driven by a combination of customer focus, collaborative teamwork, and creative thinking. This blend is essential in creating organizations that harness such energy. My methodology is anchored in constantly challenging the status quo, asking {`'why'`} and {`'how'`}, envisioning future-ready solutions, and guiding projects from ideation to realization. This approach enables me to craft solutions that not only address {`today's`} challenges but also anticipate {`tomorrow's`} needs.
                 </p>
               </div>
               <div className="col s12 m12 l6 p-none">
@@ -332,11 +329,11 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span className="font-weight-700">Date of birth: </span>
-                    21 june 1990{" "}
+                    {" "}
                   </li>
                   <li>
                     <span className="font-weight-700">Nationality: </span>
-                    Russian
+                    USA
                   </li>
                   <li>
                     <span className="font-weight-700">Freelance: </span>
@@ -347,12 +344,11 @@ const AboutUs = ({ dark }) => {
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
                   <li>
-                    <span className="font-weight-700">Phone: </span>+34 21 18 40
-                    10
+                    <span className="font-weight-700">Phone: </span>+
                   </li>
                   <li>
                     <span className="font-weight-700">Address: </span>
-                    Moscow, Russia
+                    Bozeman, Montana, USA
                   </li>
                   <li>
                     <span className="font-weight-700">Email: </span>
@@ -360,7 +356,7 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span className="font-weight-700">Spoken Langages: </span>
-                    French - German
+                    English, Italian
                   </li>
                   <li>
                     <span className="font-weight-700">Skype: </span>
