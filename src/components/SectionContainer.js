@@ -18,12 +18,14 @@ const SectionContainer = ({ children, sectionName, title }) => {
         </div>
       </div>
       {children}
+      <picture>
       <img
         alt="close"
         src="images/close-button.png"
         className="bl-icon-close"
         onClick={() => closeSection()}
       />
+      </picture>
     </section>
   );
 };

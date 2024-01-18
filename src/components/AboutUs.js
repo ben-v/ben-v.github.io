@@ -299,11 +299,13 @@ const AboutUs = ({ dark }) => {
           <div className="row">
             {/* Picture Starts */}
             <div className="col s12 m4 profile-picture show-on-medium-and-down section-padding">
+              <picture>
               <img
                 src="images/men.jpg"
                 className="responsive-img my-picture"
                 alt="My Photo"
               />
+              </picture>
             </div>
             {/* Picture Ends */}
             <div className="col s12 m8 l12 xl12 personal-info section-padding">
@@ -312,29 +314,26 @@ const AboutUs = ({ dark }) => {
               </h6>
               <div className="col m12 l12 xl9 p-none">
                 <p className="second-font">
-                  {`I'm`} a Freelance Web Designer &amp; Developer based in
-                  Moscow, Russia, I have serious passion for UI effects,
-                  animations and creating intuitive, with over a decade of
-                  experience.
+                I specialize in building highly productive and effective engineering teams for small to medium-sized businesses. My approach is rooted in the belief that the best solutions emerge from diverse minds working together. I am driven by a combination of customer focus, collaborative teamwork, and creative thinking. This blend is essential in creating organizations that harness such energy. My methodology is anchored in constantly challenging the status quo, asking {`'why'`} and {`'how'`}, envisioning future-ready solutions, and guiding projects from ideation to realization. This approach enables me to craft solutions that not only address {`today's`} challenges but also anticipate {`tomorrow's`} needs.
                 </p>
               </div>
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-1">
                   <li>
                     <span className="font-weight-700">First Name: </span>
-                    Mark
+                    Ben
                   </li>
                   <li>
                     <span className="font-weight-700">Last Name: </span>
-                    Smith
+                    Visintainer
                   </li>
                   <li>
                     <span className="font-weight-700">Date of birth: </span>
-                    21 june 1990{" "}
+                    {" "}
                   </li>
                   <li>
                     <span className="font-weight-700">Nationality: </span>
-                    Russian
+                    USA
                   </li>
                   <li>
                     <span className="font-weight-700">Freelance: </span>
@@ -345,12 +344,11 @@ const AboutUs = ({ dark }) => {
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
                   <li>
-                    <span className="font-weight-700">Phone: </span>+34 21 18 40
-                    10
+                    <span className="font-weight-700">Phone: </span>+
                   </li>
                   <li>
                     <span className="font-weight-700">Address: </span>
-                    Moscow, Russia
+                    Bozeman, Montana, USA
                   </li>
                   <li>
                     <span className="font-weight-700">Email: </span>
@@ -358,18 +356,18 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span className="font-weight-700">Spoken Langages: </span>
-                    French - German
+                    English, Italian
                   </li>
                   <li>
                     <span className="font-weight-700">Skype: </span>
-                    mark.smith
+                    ben-v
                   </li>
                 </ul>
               </div>
               <a href="#" className="btn font-weight-700">
                 Download Resume <i className="fa fa-file-pdf-o" />
               </a>
-              <Link href={`/blog-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-dark`}>
                 <a className="btn btn-blog font-weight-700">
                   My Blog <i className="fa fa-edit" />
                 </a>

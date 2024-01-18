@@ -68,45 +68,18 @@ const GetInTouch = () => {
             {/* Contact Infos Starts */}
             <div className="col s12 m5 l5 xl4 leftside">
               {/* Contacts Starts */}
-              <h6 className="font-weight-700 uppercase">Phone</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-phone" /> +34 62 11 84 01
-              </span>
-              <h6 className="font-weight-700 uppercase">Email</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-envelope" /> you@youwebsite.com
-              </span>
-              <h6 className="font-weight-700 uppercase">Skype</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-skype" /> mark.smith
-              </span>
-              <h6 className="font-weight-700 uppercase">Address</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-home" /> Moscow, Russia
-              </span>
-              <br />
               {/* Contacts Ends */}
               {/* Social Media Profiles Starts */}
               <h6 className="font-weight-700 uppercase">Social Profiles</h6>
               <div className="social">
                 <ul className="list-inline social social-intro center-align p-none">
-                  <li className="facebook">
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                <li className="social-icon">
+                    <a href="https://github.com/teqbench" target="_blank" rel="noreferrer">
+                    <i className="fa fa-github"></i>
                     </a>
                   </li>
-                  <li className="twitter">
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li className="google-plus">
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
-                    </a>
-                  </li>
-                  <li className="linkedin">
-                    <a href="#">
+                  <li className="social-icon">
+                    <a href="https://www.linkedin.com/in/benvisintainer" target="_blank" rel="noreferrer">
                       <i className="fa fa-linkedin" />
                     </a>
                   </li>

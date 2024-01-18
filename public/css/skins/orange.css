@@ -28,6 +28,11 @@ div.bl-panel-items nav span.bl-icon-close {
 	color:#fa5b0f;
 }
 
+.social-icon {
+	background:#fa5b0f;
+	color: #FFFFFF;
+}
+
 .readmore.btn,
 body.blog .btn.back-homepage:hover,
 .personal-info a.btn,

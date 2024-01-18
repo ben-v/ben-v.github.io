@@ -27,18 +27,20 @@ const SingleBlog = ({ dark }) => {
           <div className="content col s12 m8 l8 xl8">
             {/* Article Starts */}
             <article>
-              <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+              <Link href={`/blog-post-dark`}>
                 <a>
                   <h4>How to be a successful freelancer</h4>
                 </a>
               </Link>
               {/* Figure Starts */}
               <figure className="blog-figure">
-                <img
-                  className="responsive-img"
-                  src="images/blog/blog-post-1.jpg"
-                  alt=""
-                />
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/blog/blog-post-1.jpg"
+                    alt=""
+                  />
+                </picture>
               </figure>
               {/* Figure Ends */}
               {/* Excerpt Starts */}
@@ -97,7 +99,7 @@ const SingleBlog = ({ dark }) => {
                   </span>
                   <span>
                     <i className="fa fa-commenting" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>18</a>
                     </Link>
                   </span>
@@ -106,7 +108,7 @@ const SingleBlog = ({ dark }) => {
                   </span>
                   <span className="permalink">
                     <i className="fa fa-link" />{" "}
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>permalink</a>
                     </Link>
                   </span>
@@ -121,11 +123,13 @@ const SingleBlog = ({ dark }) => {
                   <li>
                     {/* Comment Starts */}
                     <div className="comment">
-                      <img
-                        className="comment-avatar pull-left"
-                        alt=""
-                        src="images/blog/user1.jpg"
-                      />
+                      <picture>
+                        <img
+                          className="comment-avatar pull-left"
+                          alt=""
+                          src="images/blog/user1.jpg"
+                        />
+                      </picture>
                       <div className="comment-body">
                         <div className="meta-data">
                           <span className="comment-author">Dalel Boubaker</span>
@@ -155,11 +159,13 @@ const SingleBlog = ({ dark }) => {
                       <li>
                         {/* Comment Starts */}
                         <div className="comment">
-                          <img
-                            className="comment-avatar pull-left"
-                            alt=""
-                            src="images/blog/user2.jpg"
-                          />
+                          <picture>
+                            <img
+                              className="comment-avatar pull-left"
+                              alt=""
+                              src="images/blog/user2.jpg"
+                            />
+                          </picture>
                           <div className="comment-body">
                             <div className="meta-data">
                               <span className="comment-author">
@@ -191,11 +197,13 @@ const SingleBlog = ({ dark }) => {
                     </ul>
                     {/* Comment Starts */}
                     <div className="comment last">
-                      <img
-                        className="comment-avatar pull-left"
-                        alt=""
-                        src="images/blog/user3.jpg"
-                      />
+                      <picture>
+                        <img
+                          className="comment-avatar pull-left"
+                          alt=""
+                          src="images/blog/user3.jpg"
+                        />
+                      </picture>
                       <div className="comment-body">
                         <div className="meta-data">
                           <span className="comment-author">Slim Hamdi</span>
@@ -292,7 +300,7 @@ const SingleBlog = ({ dark }) => {
           <div className="sidebar col s12 m4 l4 xl4">
             <div className="row">
               <div className="col s6 m6 l6 xl6">
-                <Link href={`/blog-${dark ? "dark" : "light"}`}>
+                <Link href={`/blog-dark`}>
                   <a className="btn back">
                     <i className="fa fa-arrow-left" /> Blog
                   </a>
@@ -320,18 +328,20 @@ const SingleBlog = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>
-                        <img
-                          alt="img"
-                          src="images/blog/blog-post-small-1.jpg"
-                        />
+                        <picture>
+                          <img
+                            alt="img"
+                            src="images/blog/blog-post-small-1.jpg"
+                          />
+                        </picture>
                       </a>
                     </Link>
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         <a>Why Themeforest is the best</a>
                       </Link>
                     </h4>
@@ -345,18 +355,20 @@ const SingleBlog = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>
-                        <img
-                          alt="img"
-                          src="images/blog/blog-post-small-2.jpg"
-                        />
+                        <picture>
+                          <img
+                            alt="img"
+                            src="images/blog/blog-post-small-2.jpg"
+                          />
+                        </picture>
                       </a>
                     </Link>
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         <a>Collaborating with envato</a>
                       </Link>
                     </h4>
@@ -370,18 +382,20 @@ const SingleBlog = ({ dark }) => {
                 {/* Recent Post Widget Starts */}
                 <li>
                   <div className="posts-thumb pull-left">
-                    <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                    <Link href={`/blog-post-dark`}>
                       <a>
-                        <img
-                          alt="img"
-                          src="images/blog/blog-post-small-3.jpg"
-                        />
+                        <picture>
+                          <img
+                            alt="img"
+                            src="images/blog/blog-post-small-3.jpg"
+                          />
+                        </picture>
                       </a>
                     </Link>
                   </div>
                   <div className="post-info">
                     <h4 className="entry-title">
-                      <Link href={`/blog-post-${dark ? "dark" : "light"}`}>
+                      <Link href={`/blog-post-dark`}>
                         <a>How to be a successful freelancer</a>
                       </Link>
                     </h4>

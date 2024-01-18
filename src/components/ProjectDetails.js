@@ -1,6 +1,6 @@
 import { memo, useContext, useEffect, useState } from "react";
 import { Context } from "../context/context";
-import { LocalVideo } from "./ItemDetailsContent";
+// import { LocalVideo } from "./ItemDetailsContent";
 
 import dynamic from "next/dynamic";
 
@@ -33,11 +33,13 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img
-              className="responsive-img"
-              src="images/projects/project-1.jpg"
-              alt="project"
-            />
+            <picture>
+              <img
+                className="responsive-img"
+                src="images/projects/project-1.jpg"
+                alt="project"
+              />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -198,7 +200,7 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <LocalVideo playing={activeProject} />
+            {/* <LocalVideo playing={activeProject} /> */}
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -248,7 +250,9 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-5.jpg" alt="project" />
+            <picture>
+              <img src="images/projects/project-5.jpg" alt="project" />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -298,7 +302,9 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-6.jpg" alt="project" />
+            <picture>
+              <img src="images/projects/project-6.jpg" alt="project" />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -348,7 +354,9 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-7.jpg" alt="project" />
+            <picture>
+              <img src="images/projects/project-7.jpg" alt="project" />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -398,7 +406,9 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-8.jpg" alt="project" />
+            <picture>
+              <img src="images/projects/project-8.jpg" alt="project" />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -448,7 +458,9 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <img src="images/projects/project-9.jpg" alt="project" />
+            <picture>
+              <img src="images/projects/project-9.jpg" alt="project" />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
@@ -503,15 +515,17 @@ const ProjectDetails = () => {
         </span>
         {/* Previous Work Icon Ends */}
         {/* Close Work Icon Starts */}
-        <img
-          alt="close"
-          src="images/close-button.png"
-          className="control-button bl-icon-close"
-          onClick={() => {
-            showProjectFunction();
-            activeProjectFunction(null);
-          }}
-        />
+        <picture>
+          <img
+            alt="close"
+            src="images/close-button.png"
+            className="control-button bl-icon-close"
+            onClick={() => {
+              showProjectFunction();
+              activeProjectFunction(null);
+            }}
+          />
+        </picture>
         {/* Close Work Icon Ends */}
         {/* Next Work Icon Starts */}
         <span
