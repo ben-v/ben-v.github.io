@@ -2,26 +2,26 @@ import M from "materialize-css";
 import { memo, useEffect, useRef } from "react";
 import { Carousel } from "react-materialize";
 
-export const LocalVideo = ({ playing }) => {
-  const vidRef = useRef(null);
-  useEffect(() => {
-    if (playing !== 4) {
-      vidRef.current.pause();
-    }
-  }, [playing]);
+// export const LocalVideo = ({ playing }) => {
+//   const vidRef = useRef(null);
+//   useEffect(() => {
+//     if (playing !== 4) {
+//       vidRef.current.pause();
+//     }
+//   }, [playing]);
 
-  return (
-    <video
-      ref={vidRef}
-      src="images/projects/video/video.mp4"
-      id="video"
-      className="responsive-video"
-      controls="controls"
-      autoPlay
-      poster="images/projects/video/video-poster.png"
-    />
-  );
-};
+//   return (
+//     <video
+//       ref={vidRef}
+//       src="images/projects/video/video.mp4"
+//       id="video"
+//       className="responsive-video"
+//       controls="controls"
+//       autoPlay
+//       poster="images/projects/video/video-poster.png"
+//     />
+//   );
+// };
 
 const ProjectSlider = () => {
   useEffect(() => {

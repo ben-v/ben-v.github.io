@@ -1,6 +1,6 @@
 import { memo, useContext, useEffect, useState } from "react";
 import { Context } from "../context/context";
-import { LocalVideo } from "./ItemDetailsContent";
+// import { LocalVideo } from "./ItemDetailsContent";
 
 import dynamic from "next/dynamic";
 
@@ -198,7 +198,7 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <LocalVideo playing={activeProject} />
+            {/* <LocalVideo playing={activeProject} /> */}
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
