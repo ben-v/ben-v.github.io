@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
   const { color } = useContext(Context);
   return (
     <Fragment>
+      <title>Ben Visintainer</title>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
