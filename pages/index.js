@@ -47,7 +47,7 @@ const Index = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-github"></i>
+                      <i className="fa-brands fa-github"></i>
                     </a>
                   </li>
                   <li className="social-icon">
@@ -56,7 +56,7 @@ const Index = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa-brands fa-linkedin-in" />
                     </a>
                   </li>
                   <li className="social-icon">
@@ -65,7 +65,7 @@ const Index = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-medium" />
+                      <i className="fa-brands fa-medium" />
                     </a>
                   </li>
                 </ul>
