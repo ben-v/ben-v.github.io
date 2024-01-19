@@ -302,14 +302,14 @@ const SingleBlog = ({ dark }) => {
               <div className="col s6 m6 l6 xl6">
                 <Link href={`/blog-dark`}>
                   <a className="btn back">
-                    <i className="fa fa-arrow-left" /> Blog
+                    <i className="fa fa-arrow-left" />
                   </a>
                 </Link>
               </div>
               <div className="col s6 m6 l6 xl6">
-                <Link href={`/${dark ? "index-dark" : ""}`}>
+                <Link href="/">
                   <a className="btn back" onClick={() => closeSection()}>
-                    <i className="fa fa-home" /> Home
+                    <i className="fa fa-home" />
                   </a>
                 </Link>
               </div>
