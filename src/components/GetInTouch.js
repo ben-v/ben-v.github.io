@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import { memo, useState } from "react";
 import SectionContainer from "./SectionContainer";
 const GetInTouch = () => {
@@ -19,19 +19,20 @@ const GetInTouch = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_0dzhd2z",  // service id
+          "template_3t0snwh", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "RTXwuUB1hda4FJU0Z" // public api key
         )
         .then(
           (response) => {
             setError(false);
             clearError();
             setMailData({ name: "", email: "", message: "" });
+            console.log('SEND MESSAGE SUCCESS!', response.status, response.text);
           },
           (err) => {
-            console.log(err.text);
+            console.log('SEND MESSAGE FAILED...', err);
           }
         );
     }
