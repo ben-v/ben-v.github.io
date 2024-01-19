@@ -536,7 +536,7 @@ const ProjectDetails = () => {
             )
           }
         >
-          <i className="fa fa-angle-right"></i>
+          <i className="fa-solid fa-angle-right"></i>
         </span>
         {/* Previous Work Icon Ends */}
       </nav>
