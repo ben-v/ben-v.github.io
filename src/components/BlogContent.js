@@ -66,22 +66,22 @@ const BlogContent = ({ dark }) => {
                 {/* Meta Starts */}
                 <div className="meta second-font">
                   <span>
-                    <i className="fa fa-user" /> <a href="#">admin</a>
+                    <i className="fa-solid fa-user" /> <a href="#">admin</a>
                   </span>
                   <span className="date">
-                    <i className="fa fa-calendar" /> 9 January 2022
+                    <i className="fa-solid fa-calendar" /> 9 January 2022
                   </span>
                   <span>
-                    <i className="fa fa-commenting" />{" "}
+                    <i className="fa-solid fa-commenting" />{" "}
                     <Link href={`/blog-post-dark`}>
                       18
                     </Link>
                   </span>
                   <span>
-                    <i className="fa fa-tags" /> js, php, html
+                    <i className="fa-solid fa-tags" /> js, php, html
                   </span>
                   <span className="permalink">
-                    <i className="fa fa-link" />{" "}
+                    <i className="fa-solid fa-link" />{" "}
                     <Link href={`/blog-post-dark`}>
                       permalink
                     </Link>
@@ -133,22 +133,22 @@ const BlogContent = ({ dark }) => {
                 {/* Meta Starts */}
                 <div className="meta second-font">
                   <span>
-                    <i className="fa fa-user" /> <a href="#">admin</a>
+                    <i className="fa-solid fa-user" /> <a href="#">admin</a>
                   </span>
                   <span className="date">
-                    <i className="fa fa-calendar" /> 9 January 2022
+                    <i className="fa-solid fa-calendar" /> 9 January 2022
                   </span>
                   <span>
-                    <i className="fa fa-commenting" />{" "}
+                    <i className="fa-solid fa-commenting" />{" "}
                     <Link href={`/blog-post-dark`}>
                       18
                     </Link>
                   </span>
                   <span>
-                    <i className="fa fa-tags" /> js, php, html
+                    <i className="fa-solid fa-tags" /> js, php, html
                   </span>
                   <span className="permalink">
-                    <i className="fa fa-link" />{" "}
+                    <i className="fa-solid fa-link" />{" "}
                     <Link href={`/blog-post-dark`}>
                       permalink
                     </Link>
@@ -199,22 +199,22 @@ const BlogContent = ({ dark }) => {
                 {/* Meta Starts */}
                 <div className="meta second-font">
                   <span>
-                    <i className="fa fa-user" /> <a href="#">admin</a>
+                    <i className="fa-solid fa-user" /> <a href="#">admin</a>
                   </span>
                   <span className="date">
-                    <i className="fa fa-calendar" /> 9 January 2022
+                    <i className="fa-solid fa-calendar" /> 9 January 2022
                   </span>
                   <span>
-                    <i className="fa fa-commenting" />{" "}
+                    <i className="fa-solid fa-commenting" />{" "}
                     <Link href={`/blog-post-dark`}>
                       18
                     </Link>
                   </span>
                   <span>
-                    <i className="fa fa-tags" /> js, php, html
+                    <i className="fa-solid fa-tags" /> js, php, html
                   </span>
                   <span className="permalink">
-                    <i className="fa fa-link" />{" "}
+                    <i className="fa-solid fa-link" />{" "}
                     <Link href={`/blog-post-dark`}>
                       permalink
                     </Link>
@@ -228,7 +228,7 @@ const BlogContent = ({ dark }) => {
             <ul className="pagination center-align">
               <li className="disabled">
                 <a href="#!">
-                  <i className="fa fa-angle-left" />
+                  <i className="fa-solid fa-angle-left" />
                 </a>
               </li>
               <li className="active">
@@ -248,7 +248,7 @@ const BlogContent = ({ dark }) => {
               </li>
               <li className="waves-effect">
                 <a href="#!">
-                  <i className="fa fa-angle-right" />
+                  <i className="fa-solid fa-angle-right" />
                 </a>
               </li>
             </ul>
@@ -259,7 +259,7 @@ const BlogContent = ({ dark }) => {
               <div className="col s12 m12 l12 xl12">
                 <Link href="/">
                   <a className="btn back" onClick={() => closeSection()}>
-                    <i className="fa fa-home" />
+                    <i className="fa-solid fa-home" />
                   </a>
                 </Link>
               </div>

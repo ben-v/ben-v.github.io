@@ -77,7 +77,7 @@ const GetInTouch = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-github"></i>
+                      <i className="fa-brands fa-github"></i>
                     </a>
                   </li>
                   <li className="social-icon">
@@ -86,7 +86,7 @@ const GetInTouch = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa-brands fa-linkedin-in" />
                     </a>
                   </li>
                   <li className="social-icon">
@@ -95,7 +95,7 @@ const GetInTouch = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-medium" />
+                      <i className="fa-brands fa-medium" />
                     </a>
                   </li>
                 </ul>
@@ -118,7 +118,7 @@ const GetInTouch = () => {
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
                 {/* Name Field Starts */}
                 <div className="input-field second-font">
-                  <i className="fa fa-user prefix" />
+                  <i className="fa-solid fa-user prefix" />
                   <input
                     id="name"
                     name="name"
@@ -134,7 +134,7 @@ const GetInTouch = () => {
                 {/* Name Field Ends */}
                 {/* Email Field Starts */}
                 <div className="input-field second-font">
-                  <i className="fa fa-envelope prefix" />
+                  <i className="fa-solid fa-envelope prefix" />
                   <input
                     id="email"
                     type="email"
@@ -149,7 +149,7 @@ const GetInTouch = () => {
                 {/* Email Field Ends */}
                 {/* Comment Textarea Starts */}
                 <div className="input-field second-font">
-                  <i className="fa fa-comments prefix" />
+                  <i className="fa-solid fa-comments prefix" />
                   <textarea
                     id="comment"
                     name="message"
@@ -163,13 +163,13 @@ const GetInTouch = () => {
                 </div>
                 {/* Comment Textarea Ends */}
                 {/* Submit Form Button Starts */}
-                <div className="col s12 m12 l9 xl8 submit-form">
+                <div className="col s12 m12 l9 xl12 submit-form">
                   <button
                     className="btn font-weight-700"
                     type="submit"
                     name="send"
                   >
-                    Send Message <i className="fa fa-send" />
+                    Send Message <i className="fa-solid fa-paper-plane"></i>
                   </button>
                 </div>
                 {/* Submit Form Button Ends */}

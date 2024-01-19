@@ -92,22 +92,22 @@ const SingleBlog = ({ dark }) => {
                 {/* Meta Starts */}
                 <div className="meta second-font">
                   <span>
-                    <i className="fa fa-user" /> <a href="#">admin</a>
+                    <i className="fa-solid fa-user" /> <a href="#">admin</a>
                   </span>
                   <span className="date">
-                    <i className="fa fa-calendar" /> 9 January 2022
+                    <i className="fa-solid fa-calendar" /> 9 January 2022
                   </span>
                   <span>
-                    <i className="fa fa-commenting" />{" "}
+                    <i className="fa-solid fa-commenting" />{" "}
                     <Link href={`/blog-post-dark`}>
                       <a>18</a>
                     </Link>
                   </span>
                   <span>
-                    <i className="fa fa-tags" /> js, php, html
+                    <i className="fa-solid fa-tags" /> js, php, html
                   </span>
                   <span className="permalink">
-                    <i className="fa fa-link" />{" "}
+                    <i className="fa-solid fa-link" />{" "}
                     <Link href={`/blog-post-dark`}>
                       <a>permalink</a>
                     </Link>
@@ -239,7 +239,7 @@ const SingleBlog = ({ dark }) => {
                   <form onSubmit={(e) => e.preventDefault()}>
                     {/* Name Field Starts */}
                     <div className="input-field second-font">
-                      <i className="fa fa-user prefix" />
+                      <i className="fa-solid fa-user prefix" />
                       <input
                         id="name"
                         name="name"
@@ -254,7 +254,7 @@ const SingleBlog = ({ dark }) => {
                     {/* Name Field Ends */}
                     {/* Email Field Starts */}
                     <div className="input-field second-font">
-                      <i className="fa fa-envelope prefix" />
+                      <i className="fa-solid fa-envelope prefix" />
                       <input
                         id="email"
                         type="email"
@@ -267,7 +267,7 @@ const SingleBlog = ({ dark }) => {
                     {/* Email Field Ends */}
                     {/* Comment Textarea Starts */}
                     <div className="input-field second-font">
-                      <i className="fa fa-comments prefix" />
+                      <i className="fa-solid fa-comments prefix" />
                       <textarea
                         id="comment"
                         name="comment"
@@ -285,7 +285,7 @@ const SingleBlog = ({ dark }) => {
                         type="submit"
                         name="send"
                       >
-                        Add comment <i className="fa fa-comment" />
+                        Add comment <i className="fa-solid fa-comment" />
                       </button>
                     </div>
                     {/* Submit Form Button Ends */}
@@ -302,14 +302,14 @@ const SingleBlog = ({ dark }) => {
               <div className="col s6 m6 l6 xl6">
                 <Link href={`/blog-dark`}>
                   <a className="btn back">
-                    <i className="fa fa-arrow-left" />
+                    <i className="fa-solid fa-arrow-left" />
                   </a>
                 </Link>
               </div>
               <div className="col s6 m6 l6 xl6">
                 <Link href="/">
                   <a className="btn back" onClick={() => closeSection()}>
-                    <i className="fa fa-home" />
+                    <i className="fa-solid fa-home" />
                   </a>
                 </Link>
               </div>

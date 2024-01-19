@@ -1,4 +1,8 @@
-@import '../public/css/font-awesome.min.css';
+@import '../public/css/fontawesome/v6/css/fontawesome.min.css';
+@import '../public/css/fontawesome/v6/css/brands.min.css';
+@import '../public/css/fontawesome/v6/css/regular.min.css';
+@import '../public/css/fontawesome/v6/css/solid.min.css';
+
 @import '../public/css/jquery.animatedheadline.css';
 @import '../public/css/materialize.min.css';
 @import '../public/css/style.css';

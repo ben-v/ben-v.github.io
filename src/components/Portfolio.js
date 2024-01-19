@@ -32,7 +32,7 @@ const Portfolio = () => {
           {/* Divider Starts */}
           <div className="divider center-align">
             <span className="outer-line" />
-            <span className="fa fa-suitcase" aria-hidden="true" />
+            <span className="fa fa-briefcase" aria-hidden="true" />
             <span className="outer-line" />
           </div>
           <div className="row center-align da-thumbs" id="bl-work-items">

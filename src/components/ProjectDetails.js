@@ -52,17 +52,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Envato</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   php, html, css, javascript
@@ -102,17 +102,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Themeforest</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   php, html, css, javascript
@@ -163,17 +163,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Photodune</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   Adobe After Effects, Adobe Audition
@@ -213,17 +213,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Videohive</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   Adobe After Effects, Movie Maker
@@ -265,17 +265,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Graphicriver</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   Adobe Photoshop, Gimp
@@ -317,17 +317,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Activeden</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   Adobe Flash, Paint
@@ -369,17 +369,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">3D Ocean</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   3DS Max, Adobe Photoshop
@@ -421,17 +421,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Audiojungle</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   Adobe Audition, Adobe Premiere
@@ -473,17 +473,17 @@ const ProjectDetails = () => {
                 <span className="font-weight-400 uppercase">Audiojungle</span>
               </li>
               <li>
-                <i className="fa fa-calendar-o" />
+                <i className="fa-regular fa-calendar"></i>
                 <span className="font-weight-700"> Start Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/09/2022</span>
               </li>
               <li>
-                <i className="fa fa-calendar-check-o" />
+                <i className="fa-regular fa-calendar-check"></i>
                 <span className="font-weight-700"> End Date </span>:{" "}
                 <span className="font-weight-400 uppercase">02/08/2023</span>
               </li>
               <li>
-                <i className="fa fa-cogs" />{" "}
+                <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700"> Used Technologies</span> :{" "}
                 <span className="font-weight-400 uppercase">
                   Adobe Audition, Adobe Premiere
@@ -511,7 +511,7 @@ const ProjectDetails = () => {
             activeProjectFunction(activeProject == 1 ? 1 : activeProject - 1)
           }
         >
-          <i className="fa fa-angle-left" />
+          <i className="fa-solid fa-angle-left"></i>
         </span>
         {/* Previous Work Icon Ends */}
         {/* Close Work Icon Starts */}
@@ -536,7 +536,7 @@ const ProjectDetails = () => {
             )
           }
         >
-          <i className="fa fa-angle-right" />
+          <i className="fa-solid fa-angle-right"></i>
         </span>
         {/* Previous Work Icon Ends */}
       </nav>
