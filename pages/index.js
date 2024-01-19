@@ -24,7 +24,7 @@ const Index = () => {
   }, []);
   return (
     <Layout>
-      <div className="main-picture men hide-on-med-and-down"></div>
+      <div className="main-picture bio-pic hide-on-med-and-down"></div>
       <div
         id="bl-main"
         className={`bl-main ${nav !== null ? "bl-expand-item" : ""}`}

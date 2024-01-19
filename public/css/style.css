@@ -169,19 +169,8 @@ body {
   display: inline-block;
 }
 
-.main-picture.men {
-  background-image: url("../images/men.jpg");
-  padding: 0;
-  margin-top: 24px;
-  margin-left: 24px;
-  height: calc(100vh - 48px);
-  background-size: cover;
-  background-position: center center;
-  width: calc(33.3333333333% - 48px);
-}
-
-.main-picture.woman {
-  background-image: url("../images/woman.jpg");
+.main-picture.bio-pic {
+  background-image: url("../images/bio-pic.jpg");
   padding: 0;
   margin-top: 24px;
   margin-left: 24px;
@@ -702,10 +691,6 @@ section.bl-expand .bl-icon-close {
   left: 0;
   position: relative;
   background: transparent;
-}
-
-.bl-main>section.topleft.woman {
-  background-image: url('../images/woman.jpg');
 }
 
 .bl-main>section.topleft:before {

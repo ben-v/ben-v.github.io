@@ -26,7 +26,7 @@ const IndexDark = () => {
 
   return (
     <Layout>
-      <div className="main-picture woman hide-on-med-and-down"></div>
+      <div className="main-picture bio-pic hide-on-med-and-down"></div>
       <div
         id="bl-main"
         className={`bl-main ${nav !== null ? "bl-expand-item" : ""}`}
