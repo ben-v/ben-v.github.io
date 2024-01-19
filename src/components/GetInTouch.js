@@ -44,15 +44,13 @@ const GetInTouch = () => {
   return (
     <SectionContainer
       sectionName="Contact"
-      title={{ first: "get", last: "in touch" }}
+      title={{ first: "get ", last: "in touch" }}
     >
       <div className="bl-content">
         {/* Main Heading Starts */}
         <div className="container page-title center-align">
           <h2 className="center-align">
-            <span data-hover="get">get </span>
-            {""}
-            <span data-hover="in touch">in touch</span>
+            <span>Get</span> <span>In Touch</span>
           </h2>
         </div>
         {/* Main Heading Ends */}
@@ -73,14 +71,31 @@ const GetInTouch = () => {
               <h6 className="font-weight-700 uppercase">Social Profiles</h6>
               <div className="social">
                 <ul className="list-inline social social-intro center-align p-none">
-                <li className="social-icon">
-                    <a href="https://github.com/teqbench" target="_blank" rel="noreferrer">
-                    <i className="fa fa-github"></i>
+                  <li className="social-icon">
+                    <a
+                      href="https://github.com/teqbench"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
                   <li className="social-icon">
-                    <a href="https://www.linkedin.com/in/benvisintainer" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://www.linkedin.com/in/benvisintainer"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-linkedin" />
+                    </a>
+                  </li>
+                  <li className="social-icon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-medium" />
                     </a>
                   </li>
                 </ul>

@@ -300,11 +300,11 @@ const AboutUs = ({ dark }) => {
             {/* Picture Starts */}
             <div className="col s12 m4 profile-picture show-on-medium-and-down section-padding">
               <picture>
-              <img
-                src="images/men.jpg"
-                className="responsive-img my-picture"
-                alt="My Photo"
-              />
+                <img
+                  src="images/men.jpg"
+                  className="responsive-img my-picture"
+                  alt="My Photo"
+                />
               </picture>
             </div>
             {/* Picture Ends */}
@@ -312,66 +312,59 @@ const AboutUs = ({ dark }) => {
               <h6 className="uppercase">
                 <i className="fa fa-user" /> Personal Info
               </h6>
-              <div className="col m12 l12 xl9 p-none">
+              <div className="col m12 l12 xl12 p-none">
                 <p className="second-font">
-                I specialize in building highly productive and effective engineering teams for small to medium-sized businesses. My approach is rooted in the belief that the best solutions emerge from diverse minds working together. I am driven by a combination of customer focus, collaborative teamwork, and creative thinking. This blend is essential in creating organizations that harness such energy. My methodology is anchored in constantly challenging the status quo, asking {`'why'`} and {`'how'`}, envisioning future-ready solutions, and guiding projects from ideation to realization. This approach enables me to craft solutions that not only address {`today's`} challenges but also anticipate {`tomorrow's`} needs.
+                  I specialize in building highly productive and effective
+                  engineering teams for small to medium-sized businesses. My
+                  approach is rooted in the belief that the best solutions
+                  emerge from diverse minds working together. I am driven by a
+                  combination of customer focus, collaborative teamwork, and
+                  creative thinking. This blend is essential in creating
+                  organizations that harness such energy. My methodology is
+                  anchored in constantly challenging the status quo, asking{" "}
+                  {`'why'`} and {`'how'`}, envisioning future-ready solutions,
+                  and guiding projects from ideation to realization. This
+                  approach enables me to craft solutions that not only address{" "}
+                  {`today's`} challenges but also anticipate {`tomorrow's`}{" "}
+                  needs.
                 </p>
               </div>
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-1">
                   <li>
-                    <span className="font-weight-700">First Name: </span>
-                    Ben
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Last Name: </span>
-                    Visintainer
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Date of birth: </span>
-                    {" "}
-                  </li>
-                  <li>
                     <span className="font-weight-700">Nationality: </span>
-                    USA
+                    US
                   </li>
                   <li>
-                    <span className="font-weight-700">Freelance: </span>
-                    Available
+                    <span className="font-weight-700">Available For: </span>
+                    Freelance, C2H, W2
                   </li>
                 </ul>
               </div>
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
                   <li>
-                    <span className="font-weight-700">Phone: </span>+
+                    <span className="font-weight-700">Langages: </span>
+                    English, Italian (Intermediate)
                   </li>
-                  <li>
-                    <span className="font-weight-700">Address: </span>
-                    Bozeman, Montana, USA
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Email: </span>
-                    you@yourwebsite.com
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Spoken Langages: </span>
-                    English, Italian
-                  </li>
-                  <li>
-                    <span className="font-weight-700">Skype: </span>
-                    ben-v
-                  </li>
+                  <li>&nbsp;</li>
                 </ul>
               </div>
-              <a href="#" className="btn font-weight-700">
-                Download Resume <i className="fa fa-file-pdf-o" />
-              </a>
-              <Link href={`/blog-dark`}>
-                <a className="btn btn-blog font-weight-700">
-                  My Blog <i className="fa fa-edit" />
+              {/* <div>
+                <a href="#" className="btn font-weight-700">
+                  Download Resume <i className="fa fa-file-pdf-o" />
                 </a>
-              </Link>
+                <Link href={`/blog-dark`}>
+                  <a className="btn font-weight-700">
+                    My Blog <i className="fa fa-edit" />
+                  </a>
+                </Link>
+                <Link href={`/blog-dark`}>
+                <a className="btn font-weight-700">
+                  Get In Touch <i className="fa fa-send" />
+                </a>
+              </Link>              
+              </div> */}
             </div>
           </div>
           {/* Personal Informations Ends */}
@@ -428,6 +421,23 @@ const AboutUs = ({ dark }) => {
                   >
                     <h6 className="resume-list-item-title uppercase">
                       <i className="fa fa-star" /> Skills
+                    </h6>
+                  </div>
+                </div>
+                {/* Divider Starts */}
+                <div className="divider center-align">
+                  <span className="outer-line" />
+                  <span className="fa fa-download" aria-hidden="true" />
+                  <span className="outer-line" />
+                </div>
+                {/* Divider Ends */}
+                <div className="resume-list-item is-active">
+                  <div
+                    className="resume-list-item-inner"
+                    onClick={() => alert("click download")}
+                  >
+                    <h6 className="resume-list-item-title uppercase">
+                      <i className="fa fa-file-pdf-o" /> Resume
                     </h6>
                   </div>
                 </div>
@@ -505,39 +515,6 @@ const AboutUs = ({ dark }) => {
           </div>
         </div>
         {/* Resume Ends */}
-        {/* Fun Facts Starts */}
-        <div className="container badges">
-          <div className="row">
-            {/* Fact Badge Item Starts */}
-            <div className="col s12 m4 l4 center-align">
-              <h3>
-                <i className="fa fa-briefcase" />
-                <span className="font-weight-900">4+</span>
-              </h3>
-              <h6 className="uppercase font-weight-700">Years Experience</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-            {/* Fact Badge Item Starts */}
-            <div className="col s12 m4 l4 center-align">
-              <h3>
-                <i className="fa fa-handshake-o" />
-                <span className="font-weight-900">89+</span>
-              </h3>
-              <h6 className="uppercase font-weight-700">Done Projects</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-            {/* Fact Badge Item Starts */}
-            <div className="col s12 m4 l4 center-align">
-              <h3>
-                <i className="fa fa-heart-o" />
-                <span className="font-weight-900">77+</span>
-              </h3>
-              <h6 className="uppercase font-weight-700">Happy customers</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-          </div>
-        </div>
-        {/* Fun Facts Ends */}
       </div>
     </SectionContainer>
   );

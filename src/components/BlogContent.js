@@ -257,9 +257,9 @@ const BlogContent = ({ dark }) => {
           <div className="sidebar col s12 m4 l4 xl4">
             <div className="row">
               <div className="col s12 m12 l12 xl12">
-                <Link href={`/${dark ? "index-dark" : ""}`}>
+                <Link href="/">
                   <a className="btn back" onClick={() => closeSection()}>
-                    <i className="fa fa-home" /> home
+                    <i className="fa fa-home" />
                   </a>
                 </Link>
               </div>

@@ -39,6 +39,38 @@ const Index = () => {
                     <span className="my-name">Ben Visintainer</span>
                   </h3>
                 </div>
+                <div className="social">
+                <ul className="list-inline social social-intro center-align p-none">
+                  <li className="social-icon">
+                    <a
+                      href="https://github.com/teqbench"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-github"></i>
+                    </a>
+                  </li>
+                  <li className="social-icon">
+                    <a
+                      href="https://www.linkedin.com/in/benvisintainer"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-linkedin" />
+                    </a>
+                  </li>
+                  <li className="social-icon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-medium" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
               </div>
             </div>
           </div>
