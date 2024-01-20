@@ -7,7 +7,7 @@ const Experience = () => (
   <Fragment>
     <div className="resume-card-header">
       <div className="resume-card-name">
-        <i className="fa-solid fa-briefcase" /> Experience
+        <i className="fa-solid fa-briefcase heading-icon-spacer" />Experience
       </div>
     </div>
     {/* Experience Header Title Ends */}
@@ -66,7 +66,7 @@ const Education = () => (
   <Fragment>
     <div className="resume-card-header">
       <div className="resume-card-name">
-        <i className="fa-solid fa-graduation-cap" /> Education
+        <i className="fa-solid fa-graduation-cap heading-icon-spacer" />Education
       </div>
     </div>
     {/* Education Header Title Starts */}
@@ -125,7 +125,7 @@ const Skills = () => (
     {/* Skills Header Title Starts */}
     <div className="resume-card-header">
       <div className="resume-card-name">
-        <i className="fa-solid fa-star" /> Skills
+        <i className="fa-solid fa-star heading-icon-spacer" />Skills
       </div>
     </div>
     {/* Skills Header Title Starts */}
@@ -310,7 +310,7 @@ const AboutUs = ({ dark }) => {
             {/* Picture Ends */}
             <div className="col s12 m8 l12 xl12 personal-info section-padding">
               <h6 className="uppercase">
-                <i className="fa-solid fa-user" /> Personal Info
+                <i className="fa-solid fa-user heading-icon-spacer" />Personal Info
               </h6>
               <div className="col m12 l12 xl12 p-none">
                 <p className="second-font">
@@ -332,11 +332,11 @@ const AboutUs = ({ dark }) => {
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-1">
                   <li>
-                    <span className="font-weight-700">Nationality: </span>
+                    <span className="font-weight-700"><i className="fa-regular fa-flag heading-icon-spacer"></i>Nationality: </span>
                     US
                   </li>
                   <li>
-                    <span className="font-weight-700">Available For: </span>
+                    <span className="font-weight-700"><i className="fa-regular fa-handshake heading-icon-spacer"></i>Available For: </span>
                     Freelance, C2H, W2
                   </li>
                 </ul>
@@ -344,7 +344,7 @@ const AboutUs = ({ dark }) => {
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
                   <li>
-                    <span className="font-weight-700">Langages: </span>
+                    <span className="font-weight-700"><i className="fa-solid fa-globe heading-icon-spacer"></i>Langages: </span>
                     English, Italian (Intermediate)
                   </li>
                   <li>&nbsp;</li>
@@ -388,7 +388,7 @@ const AboutUs = ({ dark }) => {
                     onClick={() => activeState.setActive(0)}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <i className="fa-solid fa-briefcase" /> Experience
+                      <i className="fa-solid fa-briefcase heading-icon-spacer" />Experience
                     </h6>
                   </div>
                 </div>
@@ -404,7 +404,7 @@ const AboutUs = ({ dark }) => {
                     onClick={() => activeState.setActive(1)}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <i className="fa-solid fa-graduation-cap" /> Education
+                      <i className="fa-solid fa-graduation-cap heading-icon-spacer" />Education
                     </h6>
                   </div>
                 </div>
@@ -420,7 +420,7 @@ const AboutUs = ({ dark }) => {
                     onClick={() => activeState.setActive(2)}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <i className="fa-solid fa-star" /> Skills
+                      <i className="fa-solid fa-star heading-icon-spacer" />Skills
                     </h6>
                   </div>
                 </div>
@@ -437,7 +437,7 @@ const AboutUs = ({ dark }) => {
                     onClick={() => alert("click download")}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <i className="fa-solid fa-file-pdf"></i> Resume
+                      <i className="fa-solid fa-file-pdf heading-icon-spacer" />Resume
                     </h6>
                   </div>
                 </div>
