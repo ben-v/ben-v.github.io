@@ -1,6 +1,8 @@
 import emailjs from '@emailjs/browser';
 import { memo, useState } from "react";
 import SectionContainer from "./SectionContainer";
+import toast, { Toaster } from 'react-hot-toast';
+
 const GetInTouch = () => {
   const [mailData, setMailData] = useState({
     name: "",
@@ -8,39 +10,40 @@ const GetInTouch = () => {
     message: "",
   });
   const { name, email, message } = mailData;
-  const [error, setError] = useState(null);
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
   const onSubmit = (e) => {
     e.preventDefault();
     if (name.length === 0 || email.length === 0 || message.length === 0) {
-      setError(true);
-      clearError();
+      toast.dismiss();
+      toast.error("All fields are required. Please try again.")
     } else {
-      emailjs
-        .send(
-          "service_0dzhd2z",  // service id
-          "template_3t0snwh", // template id
-          mailData,
-          "cGpfsTEjddquOdhTO" // public api key
-        )
-        .then(
-          (response) => {
-            setError(false);
-            clearError();
-            setMailData({ name: "", email: "", message: "" });
-            console.log('SEND MESSAGE SUCCESS!', response.status, response.text);
+      toast.promise(
+        emailjs
+          .send(
+            "service_0dzhd2z",  // service id
+            "template_3t0snwh", // template id
+            mailData,
+            "cGpfsTEjddquOdhTO" // public api key
+          ), {
+        loading: "Sending message...",
+        success: (data) => {
+          setMailData({ name: "", email: "", message: "" });
+          console.log('SEND MESSAGE SUCCESS!', data.status, data.text);
+          return "Message sent! We will contact you soon.";
+        },
+        error: (err) => {
+          console.log('SEND MESSAGE FAILED...', err);
+          return "Send message failed..."
+        }
+      },
+        {
+          style: {
+            minWidth: '350px',
           },
-          (err) => {
-            console.log('SEND MESSAGE FAILED...', err);
-          }
-        );
+        }
+      );
     }
-  };
-  const clearError = () => {
-    setTimeout(() => {
-      setError(null);
-    }, 2000);
   };
   return (
     <SectionContainer
@@ -111,9 +114,7 @@ const GetInTouch = () => {
               </h6>
               <div className="row">
                 <p className="col s12 m12 l12 xl10 second-font">
-                  If you have any suggestion, project or even you want to say
-                  Hello.. please fill out the form below and I will reply you
-                  shortly.
+                If you have any suggestions, project ideas, or specific challenges {`you'd`} like to discuss, please fill out the form below to send me a message. Whether {`it's`} innovative technology solutions, process improvements, or collaboration opportunities, {`I'm`} happy to discuss with you and will reply shortly.
                 </p>
               </div>
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
@@ -127,6 +128,7 @@ const GetInTouch = () => {
                     value={name}
                     type="text"
                     className="validate"
+                    required=""
                   />
                   <label className="font-weight-400" htmlFor="name">
                     Your Name
@@ -152,7 +154,7 @@ const GetInTouch = () => {
                 <div className="input-field second-font">
                   <i className="fa-solid fa-comments prefix" />
                   <textarea
-                    id="comment"
+                    id="message"
                     name="message"
                     onChange={(e) => onChange(e)}
                     value={message}
@@ -160,7 +162,7 @@ const GetInTouch = () => {
                     required=""
                     defaultValue={""}
                   />
-                  <label htmlFor="comment">Your Comment</label>
+                  <label htmlFor="message">Your Message</label>
                 </div>
                 {/* Comment Textarea Ends */}
                 {/* Submit Form Button Starts */}
@@ -174,22 +176,40 @@ const GetInTouch = () => {
                   </button>
                 </div>
                 {/* Submit Form Button Ends */}
-                <div className="col s12 m12 l8 xl8 form-message">
-                  <div
-                    className={error ? "red-text" : "green-text"}
-                    style={{ opacity: error == null ? "0" : "1" }}
-                  >
-                    <span>
-                      {error
-                        ? "Please Fill Required Fields"
-                        : "Your message has been received, We will contact you soon."}
-                    </span>
-                  </div>
-                </div>
               </form>
             </div>
             {/* Contact Form Ends */}
           </div>
+          <Toaster
+            position="bottom-center"
+            toastOptions={{
+              // default options
+              duration: 4000,
+
+              // success toast options
+              success: {
+                iconTheme: {
+                  primary: 'white',
+                  secondary: 'green',
+                },
+                style: {
+                  color: 'white',
+                  background: 'green'
+                },
+              },
+
+              // error toast options
+              error: {
+                iconTheme: {
+                  primary: 'white',
+                  secondary: 'red',
+                },
+                style: {
+                  color: 'white',
+                  background: 'red'
+                },
+              },
+            }} />
         </div>
       </div>
     </SectionContainer>
