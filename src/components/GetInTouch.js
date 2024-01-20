@@ -166,7 +166,7 @@ const GetInTouch = () => {
                 </div>
                 {/* Comment Textarea Ends */}
                 {/* Submit Form Button Starts */}
-                <div className="col s12 m12 l9 xl12 submit-form">
+                <div className="s12 m12 l12 xl12 submit-form">
                   <button
                     className="btn font-weight-700"
                     type="submit"
