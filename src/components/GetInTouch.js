@@ -22,7 +22,7 @@ const GetInTouch = () => {
           "service_0dzhd2z",  // service id
           "template_3t0snwh", // template id
           mailData,
-          "RTXwuUB1hda4FJU0Z" // public api key
+          "cGpfsTEjddquOdhTO" // public api key
         )
         .then(
           (response) => {
