@@ -179,3 +179,7 @@ div.bl-panel-items > div {
   background-color: #f08080;
   text-align: center;
 }
+
+.heading-icon-spacer {
+  padding-right: 12px;
+}
