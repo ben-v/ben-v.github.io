@@ -34,12 +34,12 @@ const GetInTouch = () => {
         },
         error: (err) => {
           console.log('SEND MESSAGE FAILED...', err);
-          return "Send message failed..."
+          return "Send message failed! Please check fields and try again."
         }
       },
         {
           style: {
-            minWidth: '350px',
+            minWidth: '412px',
           },
         }
       );
@@ -181,10 +181,10 @@ const GetInTouch = () => {
             {/* Contact Form Ends */}
           </div>
           <Toaster
-            position="bottom-center"
+            position="top-center"
             toastOptions={{
               // default options
-              duration: 4000,
+              duration: 5000,
 
               // success toast options
               success: {
