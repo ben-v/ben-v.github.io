@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Fragment, memo, useMemo, useState } from "react";
 import useWindowSize from "../useWindowSize";
 import SectionContainer from "./SectionContainer";
@@ -17,14 +16,13 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Web Designer - </span>Envato
+            <span>Solution Architect - </span>Resideo
           </h6>
           <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2015 - 2023
+            <i className="fa-regular fa-calendar"></i> 2022 - 2023
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            Key member of architectural team advocating model-first approach, engineering innovation, and process optimization, enhancing product development and architectural efficiency.
           </p>
         </div>
         {/* Single Experience Ends */}
@@ -32,14 +30,13 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Web Developer - </span>Google
+            <span>Software Engineer - </span>Infinetix
           </h6>
           <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2011 - 2015
+            <i className="fa-regular fa-calendar"></i> 2019 - 2022
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            Developed .NET applications for real-time data visualization and IoT integrations in agriculture, and evaluated OpenFMB/MQTT-SN protocol efficiency.
           </p>
         </div>
         {/* Single Experience Ends */}
@@ -47,14 +44,41 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Community Manager - </span>Adobe
+            <span>Senior Engineer II - </span>Nordstrom
           </h6>
           <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2007 - 2011
+            <i className="fa-regular fa-calendar"></i> 2017 - 2019
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+            Created a modern, service-oriented architectural plan for {`Nordstrom's`} private label, enhancing UX and business growth.
+          </p>
+        </div>
+        {/* Single Experience Ends */}
+        <span className="separator" />
+        {/* Single Experience Starts */}
+        <div className="resume-content">
+          <h6 className="uppercase">
+            <span>Director of Engineering - </span>Schedulicity
+          </h6>
+          <span className="date">
+            <i className="fa-regular fa-calendar"></i> 2016 - 2017
+          </span>
+          <p>
+            Restructured engineering team for 250% productivity gain, established on-call protocols, centralized documentation and notifications, and architected vendor integration using modern technologies.
+          </p>
+        </div>
+        {/* Single Experience Ends */}
+        <span className="separator" />
+        {/* Single Experience Starts */}
+        <div className="resume-content">
+          <h6 className="uppercase">
+            <span>Senior Staff Engineer - </span>Nordstrom
+          </h6>
+          <span className="date">
+            <i className="fa-regular fa-calendar"></i> 2006 - 2015
+          </span>
+          <p>
+            Led technical initiatives focused on business growth through developer productivity, streamlined process improvements and creating highly motivated and collaborative team environemnts.
           </p>
         </div>
         {/* Single Experience Ends */}
@@ -75,45 +99,22 @@ const Education = () => (
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Engineering Diploma - </span>Oxford University
+            <span>Computer Science, Italian Studies - </span>Gonzaga University
           </h6>
           <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2015 - 2023
+            <i className="fa-regular fa-calendar"></i> 1990 - 1995
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
-          </p>
         </div>
         {/* Single Education Ends */}
         <span className="separator" />
         {/* Single Education Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Masters Degree - </span>Paris University
+            Gonzaga in Florence - Florence, Italy
           </h6>
           <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2011 - 2015
+            <i className="fa-regular fa-calendar"></i> 1993 - 1994
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
-          </p>
-        </div>
-        {/* Single Education Ends */}
-        <span className="separator" />
-        {/* Single Education Starts */}
-        <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Bachelor Degree - </span>Berlin Higher Institute
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2007 - 2011
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
-          </p>
         </div>
         {/* Single Education Ends */}
       </div>
@@ -271,7 +272,7 @@ const Skills = () => (
 const AboutUs = ({ dark }) => {
   const [active, setActive] = useState(0);
   const { width } = useWindowSize();
-
+  
   const activeState = useMemo(() => ({ active, setActive }), [active]);
 
   return (
@@ -342,7 +343,7 @@ const AboutUs = ({ dark }) => {
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
                   <li>
-                  <span><i className="fa-solid fa-globe"></i></span><div className="font-weight-700">Langages: </div>English, Italian (Intermediate)
+                    <span><i className="fa-solid fa-globe"></i></span><div className="font-weight-700">Langages: </div>English, Italian (Intermediate)
                   </li>
                   <li>&nbsp;</li>
                 </ul>
@@ -374,9 +375,8 @@ const AboutUs = ({ dark }) => {
               {/* Resume Menu Starts */}
               <div className="resume-list col l4 section-padding">
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 0 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 0 ? "is-active" : ""
+                    }`}
                   data-index={0}
                   id="resume-list-item-0"
                 >
@@ -390,9 +390,8 @@ const AboutUs = ({ dark }) => {
                   </div>
                 </div>
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 1 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 1 ? "is-active" : ""
+                    }`}
                   data-index={1}
                   id="resume-list-item-1"
                 >
@@ -406,9 +405,8 @@ const AboutUs = ({ dark }) => {
                   </div>
                 </div>
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 2 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 2 ? "is-active" : ""
+                    }`}
                   data-index={2}
                   id="resume-list-item-2"
                 >
@@ -460,13 +458,12 @@ const AboutUs = ({ dark }) => {
                   <div className="resume-cards">
                     {/* Experience Starts */}
                     <div
-                      className={`resume-card resume-card-0 ${
-                        activeState.active == 0
+                      className={`resume-card resume-card-0 ${activeState.active == 0
                           ? "front"
                           : activeState.active == 2
-                          ? "back"
-                          : "back-back"
-                      }`}
+                            ? "back"
+                            : "back-back"
+                        }`}
                       onClick={() => activeState.setActive(0)}
                       data-index={0}
                     >
@@ -475,13 +472,12 @@ const AboutUs = ({ dark }) => {
                     {/* Experience Ends */}
                     {/* Education Starts */}
                     <div
-                      className={`resume-card resume-card-1 ${
-                        active == 1
+                      className={`resume-card resume-card-1 ${active == 1
                           ? "front"
                           : active == 0
-                          ? "back"
-                          : "back-back"
-                      }`}
+                            ? "back"
+                            : "back-back"
+                        }`}
                       data-index={1}
                       onClick={() => activeState.setActive(1)}
                     >
@@ -490,13 +486,12 @@ const AboutUs = ({ dark }) => {
                     {/* Education Ends */}
                     {/* Skills Starts */}
                     <div
-                      className={`resume-card resume-card-2 ${
-                        active == 2
+                      className={`resume-card resume-card-2 ${active == 2
                           ? "front"
                           : active == 1
-                          ? "back"
-                          : "back-back"
-                      }`}
+                            ? "back"
+                            : "back-back"
+                        }`}
                       data-index={2}
                       onClick={() => activeState.setActive(2)}
                     >
