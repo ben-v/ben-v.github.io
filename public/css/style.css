@@ -1429,6 +1429,11 @@ ul.social-intro li a {
 
 /*** Right Side ***/
 
+.rightside h6 span {
+  display:inline-block;
+  min-width: 32px;
+}
+
 .bl-main>section:nth-child(4).bl-expand .contact .rightside {
   padding: 0 1.5rem;
 }
