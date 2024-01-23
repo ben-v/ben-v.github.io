@@ -770,7 +770,7 @@ section.bl-expand .bl-icon-close {
 
 .personal-info ul li div {
   display:inline-block;
-  padding-right: 12px;
+  min-width: 94px;
 }
 
 .personal-info ul li span {
