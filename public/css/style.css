@@ -1502,10 +1502,9 @@ ul.social-intro li a {
 }
 
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field i.prefix {
-  font-size: 22px;
+  font-size: 19px;
   top: 7px;
-  color: #ccc;
-  width: 1em;
+  color: #fff;
   padding-right: 12px;
 }
 
