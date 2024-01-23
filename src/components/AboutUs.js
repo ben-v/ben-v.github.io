@@ -335,7 +335,7 @@ const AboutUs = ({ dark }) => {
                     <span><i className="fa-regular fa-flag"></i></span><div className="font-weight-700">Nationality:</div>US
                   </li>
                   <li>
-                    <span><i className="fa-regular fa-handshake"></i></span><div className="font-weight-700">Availablility: </div>Freelance/1099, W2
+                    <span><i className="fa-regular fa-handshake"></i></span><div className="font-weight-700">Open To: </div>Freelance/1099, W-2
                   </li>
                 </ul>
               </div>
