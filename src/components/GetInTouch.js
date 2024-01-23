@@ -34,12 +34,12 @@ const GetInTouch = () => {
         },
         error: (err) => {
           console.log('SEND MESSAGE FAILED...', err);
-          return "Send message failed..."
+          return "Send message failed! Please check fields and try again."
         }
       },
         {
           style: {
-            minWidth: '350px',
+            minWidth: '412px',
           },
         }
       );
@@ -110,7 +110,7 @@ const GetInTouch = () => {
             {/* Contact Form Starts */}
             <div className="col s12 m7 l7 xl8 rightside">
               <h6 className="uppercase m-none font-weight-700">
-                <i className="fa-solid fa-feather heading-icon-spacer"></i>Drop me a line
+                <span><i className="fa-solid fa-feather heading-icon-spacer"></i></span>Drop me a line
               </h6>
               <div className="row">
                 <p className="col s12 m12 l12 xl10 second-font">
@@ -181,10 +181,10 @@ const GetInTouch = () => {
             {/* Contact Form Ends */}
           </div>
           <Toaster
-            position="bottom-center"
+            position="top-center"
             toastOptions={{
               // default options
-              duration: 4000,
+              duration: 5000,
 
               // success toast options
               success: {

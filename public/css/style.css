@@ -759,17 +759,32 @@ section.bl-expand .bl-icon-close {
   font-weight: 600;
 }
 
-.personal-info h6 i {
-  padding-right: 7px;
+.personal-info h6 span {
+  display:inline-block;
+  min-width: 32px;
 }
 
 .personal-info ul li {
-  padding-bottom: 13px;
+  padding-bottom: 12px;
+}
+
+.personal-info ul li div {
+  display:inline-block;
+  padding-right: 12px;
 }
 
 .personal-info ul li span {
-  color: #222;
+  display:inline-block;
+  min-width: 32px;
 }
+
+/* .personal-info ul li span {
+  min-width: 40px;
+} */
+
+/* .personal-info ul li span {
+  color: #222;
+} */
 
 .personal-info a.btn {
   margin-top: -7px;
@@ -826,6 +841,10 @@ section.bl-expand .bl-icon-close {
 .resume-card:hover .resume-card-name {
   opacity: 1;
 }
+
+.resume-card-name i {
+  padding-right: 12px;
+} 
 
 .resume-card.resume-card-0 {
   position: relative;
@@ -1008,10 +1027,14 @@ span.separator {
   margin: 0;
 }
 
-.resume-list-item-title i {
-  padding-right: 13px;
+.resume-list-item-title span {
+  display:inline-block;
+  min-width: 32px;
 }
 
+/* .resume-list-item-title i {
+  padding-right: 12px;
+} */
 
 /*** Badges ***/
 
@@ -1327,6 +1350,10 @@ div.bl-panel-items a.btn {
 /* Bottom Right Section - CONTACT
 ================================================== */
 
+.contact h6 span {
+  display:inline-block;
+  min-width: 32px;
+}
 
 /*** Left Side ***/
 
