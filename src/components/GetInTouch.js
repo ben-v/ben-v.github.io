@@ -30,7 +30,7 @@ const GetInTouch = () => {
         success: (data) => {
           setMailData({ name: "", email: "", message: "" });
           console.log('SEND MESSAGE SUCCESS!', data.status, data.text);
-          return "Message sent! We will contact you soon.";
+          return "Message sent! I will reply soon.";
         },
         error: (err) => {
           console.log('SEND MESSAGE FAILED...', err);
