@@ -811,7 +811,7 @@ section.bl-expand .bl-icon-close {
 /*** Resume Panels ***/
 
 .resume-container {
-  padding: 0 0 75px 50px;
+  padding: 50px 0;
   border-top: 1px solid #efe9e9;
   border-bottom: 1px solid #efe9e9;
 }
@@ -821,7 +821,6 @@ section.bl-expand .bl-icon-close {
   margin: 0 auto;
   margin-top: 75px;
   max-width: 645px;
-  max-height: 900px;
 }
 
 .resume-card-2 {
@@ -837,9 +836,6 @@ section.bl-expand .bl-icon-close {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
   transition: .3s ease transform;
   cursor: pointer;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
 }
 
 .resume-card:hover .resume-card-name {
@@ -922,7 +918,6 @@ section.bl-expand .bl-icon-close {
   text-align: center;
   background: #f2f2f2;
   border-bottom: 1px solid #ddd;
-  height: 80.5px;
 }
 
 .resume-card-name {
@@ -936,7 +931,6 @@ section.bl-expand .bl-icon-close {
 .resume-card-body {
   background: white;
   padding: 0;
-  height: 100vh;
 }
 
 .resume-card-body-container {
@@ -989,9 +983,6 @@ span.separator {
 
 .resume-list {
   width: 100%;
-  position: relative;
-  margin: 0 auto;
-  margin-top: 75px;
 }
 
 .resume-list-item {
@@ -2315,6 +2306,5 @@ body.blog .pagination li a i {
 
   .resume-card-body-container {
     padding: 15px;
-  }
-  
+  } 
 }
