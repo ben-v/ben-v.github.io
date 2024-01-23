@@ -39,7 +39,7 @@ const GetInTouch = () => {
       },
         {
           style: {
-            minWidth: '412px',
+            minWidth: '390px',
           },
         }
       );
