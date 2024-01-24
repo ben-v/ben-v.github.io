@@ -23,28 +23,19 @@ const Experience_Resideo = () => (
             <i className="fa-regular fa-calendar"></i> 2022 - 2023
           </span>
           <p>
-            Developed a high-level solution design for {`Resideo's`} proprietary
-            IoT devices, incorporating team insights, and played a key role in a
-            cross-functional team to establish a universal domain model and
-            promote a model-first engineering approach.
+            Developed high-level solution designs for IoT devices, member of cross-functional team to establish a universal domain model & promote a model-first engineering approach.
           </p>
           <p>
-            Enhanced operational efficiency by advocating for versioned,
-            schema-driven data models in the model-first engineering initiative,
-            and provided vital support to Product and Engineering teams for
-            faster product development cycles.
+            Advocated for schema-driven data models, a model-first engineering approach & provided support to Product & Engineering teams for faster, more efficient product development cycles.
           </p>
           <p>
-            Created a reusable diagramming elements library, streamlining data
-            path representation from IoT devices to data platforms, which
-            reduced design redundancy, ensured consistency, and facilitated
-            smoother architectural and development processes.
+            Streamlined representation from IoT devices to data platforms, reducing design redundancy, ensured consistency, & facilitated smoother architectural/development processes.
           </p>
         </div>
-        <span className="separator" />
+        {/* <span className="separator" />
         <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -87,10 +78,10 @@ const Experience_Infinetix = () => (
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
+        {/* <span className="separator" />
         <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -117,15 +108,11 @@ const Experience_Nordstrom = () => (
             <i className="fa-regular fa-calendar"></i> 2017 - 2019
           </span>
           <p>
-            Authored architectural roadmap for {`Nordstrom's`}{" "}
-            multi-billion-dollar private label line of business laying out a
-            plan to evolve the technological foundation to a modern,
-            service-oriented architecture, rich UX, and telemetry to support
-            business growth.
+            Led architectural roadmap development for multi-billion-dollar private label line of business, evolving the technological foundation to leverage modern SOA, UX &amp; telemetry.
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
+        {/* <span className="separator" /> */}
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
@@ -135,24 +122,17 @@ const Experience_Nordstrom = () => (
             <i className="fa-regular fa-calendar"></i> 2006 - 2015
           </span>
           <p>
-            Successfully led the adoption of Agile methodologies, significantly
-            enhancing team efficiency and agility, establishing strong
-            collaborative relationships with business partners driving key
-            internal business and techincal initiatives.
+            Led adoption of Agile methodologies, enhancing team/org productivity, collaborative relationships with business partners to drive business &amp; techincal initiatives.
           </p>
           <p>
-            Demonstrated technical leadership driving business growth and
-            optimization such as customer management platforms and cross-border
-            exchange analysis, all while leading significant migrations and
-            cultural shifts, such as transitioning from TFS to Git for the
-            enterprise,
+            Provided technical leadership to drive business growth & optimization for order management, cross-border exchange analysis &amp; organizational change.
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
-        <div className="resume-content">
+        {/* <span className="separator" /> */}
+        {/* <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -173,37 +153,26 @@ const Experience_Schedulicity = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Senior Staff Engineer</span>
+            <span>Director of Engineering</span>
           </h6>
           <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2006 - 2015
+            <i className="fa-regular fa-calendar"></i> 2016 - 2017
           </span>
           <p>
-            Restructured engineering team to embrace a remote work culture,
-            achieving a 250+% increase in productivity in nine months, and
-            implemented a comprehensive on-call protocol using PagerDuty and New
-            Relic for improved stack monitoring.
+            Restructured engineering 10+ member team, embracing remote work, achieving a 250+% increase in productivity in nine months & implemented a comprehensive stack monitoring tooling.
           </p>
           <p>
-            Transformed knowledge management by leading the adoption of
-            Confluence for technical, product, and QA documentation, growing
-            from nearly no documentation to over 2,000 articles, thereby
-            transitioning from reliance on {`"tribal knowledge"`} to a
-            centralized knowledge base.
+            Transformed knowledge management for technical, product, and QA, growing from nearly no documentation to over 2,000+ articles, transitioning from {`"tribal knowledge"`} to a single, centralized KB.
           </p>
           <p>
-            Championed the integration of New Relic for in-depth application
-            monitoring and leveraged Slack integrations for efficient
-            notification management, while also playing a key role as System
-            Architect for a vendor integration project utilizing advanced
-            technologies.
+            Led in-depth application monitoring and integrations enhancements for effective notification insights, while also playing a key role as System Architect for a vendor integrations.
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
+        {/* <span className="separator" />
         <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -455,7 +424,7 @@ const AboutUs = ({ dark }) => {
           </h2>
         </div>
         {/* Main Heading Ends */}
-        <div className="container infos">
+        <div className="container">
           {/* Divider Starts */}
           <div className="divider center-align">
             <span className="outer-line" />
@@ -526,24 +495,8 @@ const AboutUs = ({ dark }) => {
                     <div className="font-weight-700">Langages: </div>English,
                     Italian (Intermediate)
                   </li>
-                  <li>&nbsp;</li>
                 </ul>
               </div>
-              {/* <div>
-                <a href="#" className="btn font-weight-700">
-                  Download Resume <i className="fa-solid fa-file-pdf-o" />
-                </a>
-                <Link href={`/blog-dark`}>
-                  <a className="btn font-weight-700">
-                    My Blog <i className="fa-solid fa-edit" />
-                  </a>
-                </Link>
-                <Link href={`/blog-dark`}>
-                <a className="btn font-weight-700">
-                  Get In Touch <i className="fa-solid fa-send" />
-                </a>
-              </Link>              
-              </div> */}
             </div>
           </div>
           {/* Personal Informations Ends */}
@@ -639,45 +592,6 @@ const AboutUs = ({ dark }) => {
                   </div>
                 </div>
                 {/* Schedulicity Button End */}
-
-                {/* <div
-                  className={`resume-list-item ${
-                    activeState.active === 1 ? "is-active" : ""
-                  }`}
-                  data-index={1}
-                  id="resume-list-item-1"
-                >
-                  <div
-                    className="resume-list-item-inner"
-                    onClick={() => activeState.setActive(1)}
-                  >
-                    <h6 className="resume-list-item-title uppercase">
-                      <span>
-                        <i className="fa-solid fa-graduation-cap" />
-                      </span>
-                      Education
-                    </h6>
-                  </div>
-                </div>
-                <div
-                  className={`resume-list-item ${
-                    activeState.active === 2 ? "is-active" : ""
-                  }`}
-                  data-index={2}
-                  id="resume-list-item-2"
-                >
-                  <div
-                    className="resume-list-item-inner"
-                    onClick={() => activeState.setActive(2)}
-                  >
-                    <h6 className="resume-list-item-title uppercase">
-                      <span>
-                        <i className="fa-solid fa-star" />
-                      </span>
-                      Skills
-                    </h6>
-                  </div>
-                </div> */}
                 {/* Divider Starts */}
                 <div className="divider center-align">
                   <span className="outer-line" />

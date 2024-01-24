@@ -137,6 +137,11 @@ body {
 .section-padding {
   padding: 0 24px !important;
 }
+
+.resume-cards-container .section-padding {
+  padding: 0 0 24px !important;
+}
+
 .section-padding.section-padding-right-none {
 	padding-right:0 !important;
 }
@@ -811,7 +816,7 @@ section.bl-expand .bl-icon-close {
 /*** Resume Panels ***/
 
 .resume-container {
-  padding: 50px 0;
+  padding: 25px 0;
   border-top: 1px solid #efe9e9;
   border-bottom: 1px solid #efe9e9;
 }
@@ -831,11 +836,27 @@ section.bl-expand .bl-icon-close {
   transform: scale(0.84) translate(0, -122px);
 }
 
+.resume-card-3 {
+  transform: scale(0.78) translate(0, -172px);
+}
+
+.resume-card-3:hover {
+  transform: scale(0.78) translate(0, -182px);
+}
+
 .resume-card {
   padding: 0;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
   transition: .3s ease transform;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 470px; */
+  /* max-height: 470px; */
+}
+
+.resume-card-body {
+  flex-grow: 1;
 }
 
 .resume-card:hover .resume-card-name {
@@ -916,7 +937,7 @@ section.bl-expand .bl-icon-close {
 
 
 .resume-card.position-3 {
-  transform: scale(0.75) translate(0, -196px);
+  transform: scale(0.75) translate(0, -172px);
   z-index: 0;
 }
 
@@ -925,7 +946,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .resume-card.position-3:hover {
-  transform: scale(0.75) translate(0, -206px);
+  transform: scale(0.75) translate(0, -182px);
 }
 
 .resume-card.position-hidden {
@@ -959,8 +980,6 @@ section.bl-expand .bl-icon-close {
 
 .resume-card-body-container {
   padding: 24px;
-  display: flex;
-  flex-flow: column;
 }
 
 .resume-content {
@@ -1016,6 +1035,7 @@ span.separator {
   cursor: pointer;
   user-select: none;
   transition: box-shadow .3s ease;
+  min-width: 214px;
 }
 
 .resume-list-item {
