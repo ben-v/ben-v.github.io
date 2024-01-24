@@ -866,51 +866,75 @@ section.bl-expand .bl-icon-close {
 }
 
 .resume-card.resume-card-1,
-.resume-card.resume-card-2 {
+.resume-card.resume-card-2,
+.resume-card.resume-card-3 {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
 }
 
-.resume-card.front {
+.resume-card.position-0 {
   transform: scale(1) translate(0, 0);
-  z-index: 2;
+  z-index: 3;
   cursor: default;
 }
 
-.resume-card.front:hover {
+.resume-card.position-0:hover {
   transform: scale(1) translate(0, 0);
 }
 
-.resume-card.front .resume-card-name {
+.resume-card.position-0 .resume-card-name {
   opacity: 1;
 }
 
-.resume-card.back {
+.resume-card.position-1 {
   transform: scale(0.9) translate(0, -60px);
-  z-index: 1;
+  z-index: 2;
 }
 
-.resume-card.back:hover {
+.resume-card.position-1:hover {
   transform: scale(0.9) translate(0, -70px);
 }
 
-.resume-card.back .resume-card-name {
+.resume-card.position-1 .resume-card-name {
   opacity: .7;
 }
 
-.resume-card.back-back {
+.resume-card.position-2 {
   transform: scale(0.8) translate(0, -128px);
-  z-index: 0;
+  z-index: 1;
 }
 
-.resume-card.back-back .resume-card-name {
+.resume-card.position-2 .resume-card-name {
   opacity: .5;
 }
 
-.resume-card.back-back:hover {
+.resume-card.position-2:hover {
   transform: scale(0.8) translate(0, -138px);
+}
+
+
+.resume-card.position-3 {
+  transform: scale(0.75) translate(0, -196px);
+  z-index: 0;
+}
+
+.resume-card.position-3 .resume-card-name {
+  opacity: .3;
+}
+
+.resume-card.position-3:hover {
+  transform: scale(0.75) translate(0, -206px);
+}
+
+.resume-card.position-hidden {
+  transform: scale(0.7) translate(0, -128px);
+  z-index: -1;
+}
+
+.resume-card.position-hidden .resume-card-name {
+  opacity: 0;
 }
 
 .resume-card-header {
@@ -2040,12 +2064,13 @@ body.blog .pagination li a i {
   }
 
   .resume-card.resume-card-1,
-	.resume-card.resume-card-2 {
+	.resume-card.resume-card-2,
+  .resume-card.resume-card-3 {
     position: relative;
     transform: none !important;
   }
 
-  .resume-card.resume-card-2 {
+  .resume-card.resume-card-3 {
     margin-bottom: 0;
   }
 
