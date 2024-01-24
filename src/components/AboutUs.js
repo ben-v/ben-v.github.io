@@ -2,6 +2,8 @@ import { Fragment, memo, useMemo, useState } from "react";
 import useWindowSize from "../useWindowSize";
 import SectionContainer from "./SectionContainer";
 
+import pdfResume from "../docs/Ben_Visintainer_Resume.pdf";
+
 const Experience_Resideo = () => (
   <Fragment>
     <div className="resume-card-header">
@@ -487,7 +489,7 @@ const AboutUs = ({ dark }) => {
                     <span>
                       <i className="fa-solid fa-user-graduate"></i>
                     </span>
-                    <div className="font-weight-700">Education: </div>Computer Science, Italian Studies - Gonzaga University
+                    <div className="font-weight-700">Education: </div><div>Computer Science, Italian Studies - Gonzaga University</div>
                   </li>
                 </ul>
               </div>
@@ -608,7 +610,7 @@ const AboutUs = ({ dark }) => {
                 <div className="resume-list-item is-active">
                   <div
                     className="resume-list-item-inner"
-                    onClick={() => alert("click download")}
+                    onClick={() => window.open(pdfResume, "_blank")}
                   >
                     <h6 className="resume-list-item-title uppercase">
                       <span>

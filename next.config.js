@@ -23,9 +23,17 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-    
+
   reactStrictMode: true,
   swcMinify: true,
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.pdf/,
+      type: "asset/resource",
+    });
+
+    return config;
+  },
 };
 
 module.exports = nextConfig;
