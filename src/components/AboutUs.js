@@ -32,10 +32,10 @@ const Experience_Resideo = () => (
             Streamlined representation from IoT devices to data platforms, reducing design redundancy, ensured consistency, & facilitated smoother architectural/development processes.
           </p>
         </div>
-        <span className="separator" />
+        {/* <span className="separator" />
         <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -78,10 +78,10 @@ const Experience_Infinetix = () => (
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
+        {/* <span className="separator" />
         <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -112,7 +112,7 @@ const Experience_Nordstrom = () => (
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
+        {/* <span className="separator" /> */}
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
@@ -129,10 +129,10 @@ const Experience_Nordstrom = () => (
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
-        <div className="resume-content">
+        {/* <span className="separator" /> */}
+        {/* <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -169,10 +169,10 @@ const Experience_Schedulicity = () => (
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className="separator" />
+        {/* <span className="separator" />
         <div className="resume-content">
           <p>skills go here</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </Fragment>
@@ -424,7 +424,7 @@ const AboutUs = ({ dark }) => {
           </h2>
         </div>
         {/* Main Heading Ends */}
-        <div className="container infos">
+        <div className="container">
           {/* Divider Starts */}
           <div className="divider center-align">
             <span className="outer-line" />
@@ -495,24 +495,8 @@ const AboutUs = ({ dark }) => {
                     <div className="font-weight-700">Langages: </div>English,
                     Italian (Intermediate)
                   </li>
-                  <li>&nbsp;</li>
                 </ul>
               </div>
-              {/* <div>
-                <a href="#" className="btn font-weight-700">
-                  Download Resume <i className="fa-solid fa-file-pdf-o" />
-                </a>
-                <Link href={`/blog-dark`}>
-                  <a className="btn font-weight-700">
-                    My Blog <i className="fa-solid fa-edit" />
-                  </a>
-                </Link>
-                <Link href={`/blog-dark`}>
-                <a className="btn font-weight-700">
-                  Get In Touch <i className="fa-solid fa-send" />
-                </a>
-              </Link>              
-              </div> */}
             </div>
           </div>
           {/* Personal Informations Ends */}
@@ -608,45 +592,6 @@ const AboutUs = ({ dark }) => {
                   </div>
                 </div>
                 {/* Schedulicity Button End */}
-
-                {/* <div
-                  className={`resume-list-item ${
-                    activeState.active === 1 ? "is-active" : ""
-                  }`}
-                  data-index={1}
-                  id="resume-list-item-1"
-                >
-                  <div
-                    className="resume-list-item-inner"
-                    onClick={() => activeState.setActive(1)}
-                  >
-                    <h6 className="resume-list-item-title uppercase">
-                      <span>
-                        <i className="fa-solid fa-graduation-cap" />
-                      </span>
-                      Education
-                    </h6>
-                  </div>
-                </div>
-                <div
-                  className={`resume-list-item ${
-                    activeState.active === 2 ? "is-active" : ""
-                  }`}
-                  data-index={2}
-                  id="resume-list-item-2"
-                >
-                  <div
-                    className="resume-list-item-inner"
-                    onClick={() => activeState.setActive(2)}
-                  >
-                    <h6 className="resume-list-item-title uppercase">
-                      <span>
-                        <i className="fa-solid fa-star" />
-                      </span>
-                      Skills
-                    </h6>
-                  </div>
-                </div> */}
                 {/* Divider Starts */}
                 <div className="divider center-align">
                   <span className="outer-line" />
