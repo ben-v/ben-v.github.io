@@ -479,21 +479,26 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span>
-                      <i className="fa-regular fa-handshake"></i>
+                      <i className="fa-solid fa-globe"></i>
                     </span>
-                    <div className="font-weight-700">Open To: </div>
-                    Freelance/1099, W-2
+                    <div className="font-weight-700">Langages: </div>English, Italian (Intermediate)
+                  </li>                  
+                  <li>
+                    <span>
+                      <i className="fa-solid fa-user-graduate"></i>
+                    </span>
+                    <div className="font-weight-700">Education: </div>Computer Science, Italian Studies - Gonzaga University
                   </li>
                 </ul>
               </div>
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
-                  <li>
+                <li>
                     <span>
-                      <i className="fa-solid fa-globe"></i>
+                      <i className="fa-regular fa-handshake"></i>
                     </span>
-                    <div className="font-weight-700">Langages: </div>English,
-                    Italian (Intermediate)
+                    <div className="font-weight-700">Open To: </div>
+                    Freelance/1099, W-2
                   </li>
                 </ul>
               </div>
