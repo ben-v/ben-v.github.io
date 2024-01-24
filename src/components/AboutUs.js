@@ -2,11 +2,12 @@ import { Fragment, memo, useMemo, useState } from "react";
 import useWindowSize from "../useWindowSize";
 import SectionContainer from "./SectionContainer";
 
-const Experience = () => (
+const Experience_Resideo = () => (
   <Fragment>
     <div className="resume-card-header">
       <div className="resume-card-name">
-        <i className="fa-solid fa-briefcase" />Experience
+        <i className="fa-solid fa-briefcase" />
+        Resideo
       </div>
     </div>
     {/* Experience Header Title Ends */}
@@ -16,264 +17,430 @@ const Experience = () => (
         {/* Single Experience Starts */}
         <div className="resume-content">
           <h6 className="uppercase">
-            <span>Solution Architect - </span>Resideo
+            <span>Solution Architect</span>
           </h6>
           <span className="date">
             <i className="fa-regular fa-calendar"></i> 2022 - 2023
           </span>
           <p>
-            Key member of architectural team advocating model-first approach, engineering innovation, and process optimization, enhancing product development and architectural efficiency.
+            Developed a high-level solution design for {`Resideo's`} proprietary
+            IoT devices, incorporating team insights, and played a key role in a
+            cross-functional team to establish a universal domain model and
+            promote a model-first engineering approach.
           </p>
-        </div>
-        {/* Single Experience Ends */}
-        <span className="separator" />
-        {/* Single Experience Starts */}
-        <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Software Engineer - </span>Infinetix
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2019 - 2022
-          </span>
           <p>
-            Developed .NET applications for real-time data visualization and IoT integrations in agriculture, and evaluated OpenFMB/MQTT-SN protocol efficiency.
+            Enhanced operational efficiency by advocating for versioned,
+            schema-driven data models in the model-first engineering initiative,
+            and provided vital support to Product and Engineering teams for
+            faster product development cycles.
           </p>
-        </div>
-        {/* Single Experience Ends */}
-        <span className="separator" />
-        {/* Single Experience Starts */}
-        <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Senior Engineer II - </span>Nordstrom
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2017 - 2019
-          </span>
           <p>
-            Created a modern, service-oriented architectural plan for {`Nordstrom's`} private label, enhancing UX and business growth.
+            Created a reusable diagramming elements library, streamlining data
+            path representation from IoT devices to data platforms, which
+            reduced design redundancy, ensured consistency, and facilitated
+            smoother architectural and development processes.
           </p>
         </div>
-        {/* Single Experience Ends */}
         <span className="separator" />
-        {/* Single Experience Starts */}
         <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Director of Engineering - </span>Schedulicity
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2016 - 2017
-          </span>
-          <p>
-            Restructured engineering team for 250% productivity gain, established on-call protocols, centralized documentation and notifications, and architected vendor integration using modern technologies.
-          </p>
-        </div>
-        {/* Single Experience Ends */}
-        <span className="separator" />
-        {/* Single Experience Starts */}
-        <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Senior Staff Engineer - </span>Nordstrom
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 2006 - 2015
-          </span>
-          <p>
-            Led technical initiatives focused on business growth through developer productivity, streamlined process improvements and creating highly motivated and collaborative team environemnts.
-          </p>
-        </div>
-        {/* Single Experience Ends */}
-      </div>
-    </div>
-  </Fragment>
-);
-const Education = () => (
-  <Fragment>
-    <div className="resume-card-header">
-      <div className="resume-card-name">
-        <i className="fa-solid fa-graduation-cap" />Education
-      </div>
-    </div>
-    {/* Education Header Title Starts */}
-    <div className="resume-card-body education">
-      <div className="resume-card-body-container second-font">
-        {/* Single Education Starts */}
-        <div className="resume-content">
-          <h6 className="uppercase">
-            <span>Computer Science, Italian Studies - </span>Gonzaga University
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 1990 - 1995
-          </span>
-        </div>
-        {/* Single Education Ends */}
-        <span className="separator" />
-        {/* Single Education Starts */}
-        <div className="resume-content">
-          <h6 className="uppercase">
-            Gonzaga in Florence - Florence, Italy
-          </h6>
-          <span className="date">
-            <i className="fa-regular fa-calendar"></i> 1993 - 1994
-          </span>
-        </div>
-        {/* Single Education Ends */}
-      </div>
-    </div>
-  </Fragment>
-);
-const Skills = () => (
-  <Fragment>
-    {/* Skills Header Title Starts */}
-    <div className="resume-card-header">
-      <div className="resume-card-name">
-        <i className="fa-solid fa-star" />Skills
-      </div>
-    </div>
-    {/* Skills Header Title Starts */}
-    <div className="resume-card-body skills">
-      <div className="resume-card-body-container second-font">
-        <div className="row">
-          {/* Skills Row Starts */}
-          <div className="col s6">
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">html</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">javascript</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-half-empty" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">css</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-half-empty" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">php</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star-o" />{" "}
-                <i className="fa-solid fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">jquery</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">angular js</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star-o" />{" "}
-                <i className="fa-solid fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-          </div>
-          {/* Skills Row Ends */}
-          {/* Skills Row Starts */}
-          <div className="col s6">
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">wordpress</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-half-empty" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">joomla</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-half-empty" />{" "}
-                <i className="fa-solid fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">magento</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">drupal</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">Adobe Photoshop</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className="resume-content">
-              <h6 className="uppercase">Adobe illustrator</h6>
-              <p>
-                <i className="fa-solid fa-star" /> <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star" />{" "}
-                <i className="fa-solid fa-star-half-empty" />{" "}
-                <i className="fa-solid fa-star-o" />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-          </div>
-          {/* Skills Row Ends */}
+          <p>skills go here</p>
         </div>
       </div>
     </div>
   </Fragment>
 );
 
+const Experience_Infinetix = () => (
+  <Fragment>
+    <div className="resume-card-header">
+      <div className="resume-card-name">
+        <i className="fa-solid fa-briefcase" />
+        Infinetix
+      </div>
+    </div>
+    {/* Experience Header Title Ends */}
+    {/* Experience Content Starts */}
+    <div className="resume-card-body experience">
+      <div className="resume-card-body-container second-font">
+        {/* Single Experience Starts */}
+        <div className="resume-content">
+          <h6 className="uppercase">
+            <span>Software Engineer</span>
+          </h6>
+          <span className="date">
+            <i className="fa-regular fa-calendar"></i> 2019 - 2022
+          </span>
+          <p>
+            Developed a .NET desktop application for real-time graphical
+            representation of pipe analysis, enabling instant multi-channel data
+            insights for users.
+          </p>
+          <p>
+            Created a proof of concept integrating agricultural environmental
+            controls with IoT, utilizing .NET Core, Azure Cosmos DB, and Angular
+            for cloud data logging and dashboard functionality.
+          </p>
+          <p>
+            Engineered a proof of concept to assess OpenFMB protocol
+            compatibility and efficiency with ultra-low-powered endpoints, using
+            MQTT/MQTT-SN, Go, RabbitMQ, and BeagleBone Black.
+          </p>
+        </div>
+        {/* Single Experience Ends */}
+        <span className="separator" />
+        <div className="resume-content">
+          <p>skills go here</p>
+        </div>
+      </div>
+    </div>
+  </Fragment>
+);
+
+const Experience_Nordstrom = () => (
+  <Fragment>
+    <div className="resume-card-header">
+      <div className="resume-card-name">
+        <i className="fa-solid fa-briefcase" />
+        Nordstrom
+      </div>
+    </div>
+    {/* Experience Header Title Ends */}
+    {/* Experience Content Starts */}
+    <div className="resume-card-body experience">
+      <div className="resume-card-body-container second-font">
+        {/* Single Experience Starts */}
+        <div className="resume-content">
+          <h6 className="uppercase">
+            <span>Senior Engineer II</span>
+          </h6>
+          <span className="date">
+            <i className="fa-regular fa-calendar"></i> 2017 - 2019
+          </span>
+          <p>
+            Authored architectural roadmap for {`Nordstrom's`}{" "}
+            multi-billion-dollar private label line of business laying out a
+            plan to evolve the technological foundation to a modern,
+            service-oriented architecture, rich UX, and telemetry to support
+            business growth.
+          </p>
+        </div>
+        {/* Single Experience Ends */}
+        <span className="separator" />
+        {/* Single Experience Starts */}
+        <div className="resume-content">
+          <h6 className="uppercase">
+            <span>Senior Staff Engineer</span>
+          </h6>
+          <span className="date">
+            <i className="fa-regular fa-calendar"></i> 2006 - 2015
+          </span>
+          <p>
+            Successfully led the adoption of Agile methodologies, significantly
+            enhancing team efficiency and agility, establishing strong
+            collaborative relationships with business partners driving key
+            internal business and techincal initiatives.
+          </p>
+          <p>
+            Demonstrated technical leadership driving business growth and
+            optimization such as customer management platforms and cross-border
+            exchange analysis, all while leading significant migrations and
+            cultural shifts, such as transitioning from TFS to Git for the
+            enterprise,
+          </p>
+        </div>
+        {/* Single Experience Ends */}
+        <span className="separator" />
+        <div className="resume-content">
+          <p>skills go here</p>
+        </div>
+      </div>
+    </div>
+  </Fragment>
+);
+
+const Experience_Schedulicity = () => (
+  <Fragment>
+    <div className="resume-card-header">
+      <div className="resume-card-name">
+        <i className="fa-solid fa-briefcase" />
+        Schedulicity
+      </div>
+    </div>
+    {/* Experience Header Title Ends */}
+    {/* Experience Content Starts */}
+    <div className="resume-card-body experience">
+      <div className="resume-card-body-container second-font">
+        {/* Single Experience Starts */}
+        <div className="resume-content">
+          <h6 className="uppercase">
+            <span>Senior Staff Engineer</span>
+          </h6>
+          <span className="date">
+            <i className="fa-regular fa-calendar"></i> 2006 - 2015
+          </span>
+          <p>
+            Restructured engineering team to embrace a remote work culture,
+            achieving a 250+% increase in productivity in nine months, and
+            implemented a comprehensive on-call protocol using PagerDuty and New
+            Relic for improved stack monitoring.
+          </p>
+          <p>
+            Transformed knowledge management by leading the adoption of
+            Confluence for technical, product, and QA documentation, growing
+            from nearly no documentation to over 2,000 articles, thereby
+            transitioning from reliance on {`"tribal knowledge"`} to a
+            centralized knowledge base.
+          </p>
+          <p>
+            Championed the integration of New Relic for in-depth application
+            monitoring and leveraged Slack integrations for efficient
+            notification management, while also playing a key role as System
+            Architect for a vendor integration project utilizing advanced
+            technologies.
+          </p>
+        </div>
+        {/* Single Experience Ends */}
+        <span className="separator" />
+        <div className="resume-content">
+          <p>skills go here</p>
+        </div>
+      </div>
+    </div>
+  </Fragment>
+);
+
+// const Education = () => (
+//   <Fragment>
+//     <div className="resume-card-header">
+//       <div className="resume-card-name">
+//         <i className="fa-solid fa-graduation-cap" />
+//         Education
+//       </div>
+//     </div>
+//     {/* Education Header Title Starts */}
+//     <div className="resume-card-body education">
+//       <div className="resume-card-body-container second-font">
+//         {/* Single Education Starts */}
+//         <div className="resume-content">
+//           <h6 className="uppercase">
+//             <span>Computer Science, Italian Studies - </span>Gonzaga University
+//           </h6>
+//           <span className="date">
+//             <i className="fa-regular fa-calendar"></i> 1990 - 1995
+//           </span>
+//         </div>
+//         {/* Single Education Ends */}
+//         <span className="separator" />
+//         {/* Single Education Starts */}
+//         <div className="resume-content">
+//           <h6 className="uppercase">Gonzaga in Florence - Florence, Italy</h6>
+//           <span className="date">
+//             <i className="fa-regular fa-calendar"></i> 1993 - 1994
+//           </span>
+//         </div>
+//         {/* Single Education Ends */}
+//       </div>
+//     </div>
+//   </Fragment>
+// );
+// const Skills = () => (
+//   <Fragment>
+//     {/* Skills Header Title Starts */}
+//     <div className="resume-card-header">
+//       <div className="resume-card-name">
+//         <i className="fa-solid fa-star" />
+//         Skills
+//       </div>
+//     </div>
+//     {/* Skills Header Title Starts */}
+//     <div className="resume-card-body skills">
+//       <div className="resume-card-body-container second-font">
+//         <div className="row">
+//           {/* Skills Row Starts */}
+//           <div className="col s6">
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">html</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">javascript</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-half-empty" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">css</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-half-empty" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">php</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-o" />{" "}
+//                 <i className="fa-solid fa-star-o" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">jquery</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">angular js</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-o" />{" "}
+//                 <i className="fa-solid fa-star-o" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//           </div>
+//           {/* Skills Row Ends */}
+//           {/* Skills Row Starts */}
+//           <div className="col s6">
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">wordpress</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-half-empty" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">joomla</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-half-empty" />{" "}
+//                 <i className="fa-solid fa-star-o" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">magento</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-o" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">drupal</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">Adobe Photoshop</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-o" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//             {/* Single Skills Starts */}
+//             <div className="resume-content">
+//               <h6 className="uppercase">Adobe illustrator</h6>
+//               <p>
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star" />{" "}
+//                 <i className="fa-solid fa-star-half-empty" />{" "}
+//                 <i className="fa-solid fa-star-o" />
+//               </p>
+//             </div>
+//             {/* Single Skills Ends */}
+//           </div>
+//           {/* Skills Row Ends */}
+//         </div>
+//       </div>
+//     </div>
+//   </Fragment>
+// );
+
 const AboutUs = ({ dark }) => {
+  const RESUME_CARD_COUNT = 4;
+  const RESUME_POSITION_COUNT = 4;
+
   const [active, setActive] = useState(0);
   const { width } = useWindowSize();
-  
+
   const activeState = useMemo(() => ({ active, setActive }), [active]);
+
+  const getResumeCardCssPositionClass = (cardIndex, activeIndex) => {
+    let cssClass;
+
+    // // If card index is same as the active index, means, the card should be first
+    const diff = cardIndex - activeIndex;
+    const positionIndex = diff >= 0 ? diff : RESUME_CARD_COUNT + diff;
+
+    // If the positionIndex is greater than the number of resume card carousel positions, return 'hidden' position.
+    cssClass = `position-${
+      positionIndex < RESUME_POSITION_COUNT ? positionIndex : "hidden"
+    }`;
+
+    // console.log(
+    //   `cardIndex = ${cardIndex}, activeIndex = ${activeIndex}, cssClass = ${cssClass}`
+    // );
+
+    return cssClass;
+  };
 
   return (
     <SectionContainer
@@ -311,7 +478,10 @@ const AboutUs = ({ dark }) => {
             {/* Picture Ends */}
             <div className="col s12 m8 l12 xl12 personal-info section-padding">
               <h6 className="uppercase">
-                <span><i className="fa-solid fa-user" /></span>Personal Info
+                <span>
+                  <i className="fa-solid fa-user" />
+                </span>
+                Personal Info
               </h6>
               <div className="col m12 l12 xl12 p-none">
                 <p className="second-font">
@@ -333,17 +503,28 @@ const AboutUs = ({ dark }) => {
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-1">
                   <li>
-                    <span><i className="fa-regular fa-flag"></i></span><div className="font-weight-700">Nationality:</div>US
+                    <span>
+                      <i className="fa-regular fa-flag"></i>
+                    </span>
+                    <div className="font-weight-700">Nationality:</div>US
                   </li>
                   <li>
-                    <span><i className="fa-regular fa-handshake"></i></span><div className="font-weight-700">Open To: </div>Freelance/1099, W-2
+                    <span>
+                      <i className="fa-regular fa-handshake"></i>
+                    </span>
+                    <div className="font-weight-700">Open To: </div>
+                    Freelance/1099, W-2
                   </li>
                 </ul>
               </div>
               <div className="col s12 m12 l6 p-none">
                 <ul className="second-font list-2">
                   <li>
-                    <span><i className="fa-solid fa-globe"></i></span><div className="font-weight-700">Langages: </div>English, Italian (Intermediate)
+                    <span>
+                      <i className="fa-solid fa-globe"></i>
+                    </span>
+                    <div className="font-weight-700">Langages: </div>English,
+                    Italian (Intermediate)
                   </li>
                   <li>&nbsp;</li>
                 </ul>
@@ -374,9 +555,11 @@ const AboutUs = ({ dark }) => {
             <div className="valign-wrapper row">
               {/* Resume Menu Starts */}
               <div className="resume-list col l4 section-padding">
+                {/* Resideo Button */}
                 <div
-                  className={`resume-list-item ${activeState.active === 0 ? "is-active" : ""
-                    }`}
+                  className={`resume-list-item ${
+                    activeState.active === 0 ? "is-active" : ""
+                  }`}
                   data-index={0}
                   id="resume-list-item-0"
                 >
@@ -385,28 +568,40 @@ const AboutUs = ({ dark }) => {
                     onClick={() => activeState.setActive(0)}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <span><i className="fa-solid fa-briefcase" /></span>Experience
+                      <span>
+                        <i className="fa-solid fa-briefcase" />
+                      </span>
+                      Resideo
                     </h6>
                   </div>
                 </div>
+                {/* Resideo Button End */}
+                {/* Infinetix Button Start */}
                 <div
-                  className={`resume-list-item ${activeState.active === 1 ? "is-active" : ""
-                    }`}
+                  className={`resume-list-item ${
+                    activeState.active === 1 ? "is-active" : ""
+                  }`}
                   data-index={1}
-                  id="resume-list-item-1"
+                  id="resume-list-item-0"
                 >
                   <div
                     className="resume-list-item-inner"
                     onClick={() => activeState.setActive(1)}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <span><i className="fa-solid fa-graduation-cap" /></span>Education
+                      <span>
+                        <i className="fa-solid fa-briefcase" />
+                      </span>
+                      Infinetix
                     </h6>
                   </div>
                 </div>
+                {/* Infinetix Button End */}
+                {/* Nordstrom Button Start */}
                 <div
-                  className={`resume-list-item ${activeState.active === 2 ? "is-active" : ""
-                    }`}
+                  className={`resume-list-item ${
+                    activeState.active === 2 ? "is-active" : ""
+                  }`}
                   data-index={2}
                   id="resume-list-item-2"
                 >
@@ -415,10 +610,74 @@ const AboutUs = ({ dark }) => {
                     onClick={() => activeState.setActive(2)}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <span><i className="fa-solid fa-star" /></span>Skills
+                      <span>
+                        <i className="fa-solid fa-briefcase" />
+                      </span>
+                      Nordstrom
                     </h6>
                   </div>
                 </div>
+                {/* Infinetix Button End */}
+                {/* Schedulicity Button Start */}
+                <div
+                  className={`resume-list-item ${
+                    activeState.active === 3 ? "is-active" : ""
+                  }`}
+                  data-index={2}
+                  id="resume-list-item-3"
+                >
+                  <div
+                    className="resume-list-item-inner"
+                    onClick={() => activeState.setActive(3)}
+                  >
+                    <h6 className="resume-list-item-title uppercase">
+                      <span>
+                        <i className="fa-solid fa-briefcase" />
+                      </span>
+                      Schedulicity
+                    </h6>
+                  </div>
+                </div>
+                {/* Schedulicity Button End */}
+
+                {/* <div
+                  className={`resume-list-item ${
+                    activeState.active === 1 ? "is-active" : ""
+                  }`}
+                  data-index={1}
+                  id="resume-list-item-1"
+                >
+                  <div
+                    className="resume-list-item-inner"
+                    onClick={() => activeState.setActive(1)}
+                  >
+                    <h6 className="resume-list-item-title uppercase">
+                      <span>
+                        <i className="fa-solid fa-graduation-cap" />
+                      </span>
+                      Education
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  className={`resume-list-item ${
+                    activeState.active === 2 ? "is-active" : ""
+                  }`}
+                  data-index={2}
+                  id="resume-list-item-2"
+                >
+                  <div
+                    className="resume-list-item-inner"
+                    onClick={() => activeState.setActive(2)}
+                  >
+                    <h6 className="resume-list-item-title uppercase">
+                      <span>
+                        <i className="fa-solid fa-star" />
+                      </span>
+                      Skills
+                    </h6>
+                  </div>
+                </div> */}
                 {/* Divider Starts */}
                 <div className="divider center-align">
                   <span className="outer-line" />
@@ -426,13 +685,17 @@ const AboutUs = ({ dark }) => {
                   <span className="outer-line" />
                 </div>
                 {/* Divider Ends */}
+                {/* Resume Button */}
                 <div className="resume-list-item is-active">
                   <div
                     className="resume-list-item-inner"
                     onClick={() => alert("click download")}
                   >
                     <h6 className="resume-list-item-title uppercase">
-                      <span><i className="fa-solid fa-file-pdf" /></span>Resume
+                      <span>
+                        <i className="fa-solid fa-file-pdf" />
+                      </span>
+                      Resume
                     </h6>
                   </div>
                 </div>
@@ -443,60 +706,92 @@ const AboutUs = ({ dark }) => {
                 <div className="col s12 m12 l8 resume-cards-container section-padding">
                   <div className="resume-cards">
                     <div className="resume-card resume-card-0">
-                      <Experience />
+                      <Experience_Resideo />
                     </div>
                     <div className="resume-card resume-card-1">
+                      <Experience_Infinetix />
+                    </div>
+                    <div className="resume-card resume-card-2">
+                      <Experience_Nordstrom />
+                    </div>
+                    <div className="resume-card resume-card-3">
+                      <Experience_Schedulicity />
+                    </div>
+
+                    {/* <div className="resume-card resume-card-1">
                       <Education />
                     </div>
                     <div className="resume-card resume-card-2">
                       <Skills />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ) : (
                 <div className="col s12 m12 l8 resume-cards-container section-padding">
                   <div className="resume-cards">
-                    {/* Experience Starts */}
+                    {/* Experience_Resideo Starts */}
                     <div
-                      className={`resume-card resume-card-0 ${activeState.active == 0
-                          ? "front"
-                          : activeState.active == 2
-                            ? "back"
-                            : "back-back"
-                        }`}
+                      className={`resume-card resume-card-0 ${getResumeCardCssPositionClass(
+                        0,
+                        activeState.active
+                      )}`}
                       onClick={() => activeState.setActive(0)}
                       data-index={0}
                     >
-                      <Experience />
+                      <Experience_Resideo />
                     </div>
-                    {/* Experience Ends */}
-                    {/* Education Starts */}
+                    {/* Experience_Resideo Ends */}
+                    {/* Experience_Infinetix Starts */}
                     <div
-                      className={`resume-card resume-card-1 ${active == 1
-                          ? "front"
-                          : active == 0
-                            ? "back"
-                            : "back-back"
-                        }`}
+                      className={`resume-card resume-card-1 ${getResumeCardCssPositionClass(
+                        1,
+                        active
+                      )}`}
                       data-index={1}
                       onClick={() => activeState.setActive(1)}
                     >
-                      <Education />
+                      <Experience_Infinetix />
                     </div>
-                    {/* Education Ends */}
-                    {/* Skills Starts */}
+                    {/* Experience_Infinetix Ends */}
+                    {/* Experience_Nordstrom Starts */}
                     <div
-                      className={`resume-card resume-card-2 ${active == 2
+                      className={`resume-card resume-card-2 ${getResumeCardCssPositionClass(
+                        2,
+                        active
+                      )}`}
+                      data-index={2}
+                      onClick={() => activeState.setActive(2)}
+                    >
+                      <Experience_Nordstrom />
+                    </div>
+                    {/* Experience_Nordstrom Ends */}
+                    {/* Experience_Schedulicity Starts */}
+                    <div
+                      className={`resume-card resume-card-3 ${getResumeCardCssPositionClass(
+                        3,
+                        active
+                      )}`}
+                      data-index={3}
+                      onClick={() => activeState.setActive(3)}
+                    >
+                      <Experience_Schedulicity />
+                    </div>
+                    {/* Experience_Schedulicity Ends */}
+
+                    {/* Skills Starts */}
+                    {/* <div
+                      className={`resume-card resume-card-2 ${
+                        active == 2
                           ? "front"
                           : active == 1
-                            ? "back"
-                            : "back-back"
-                        }`}
+                          ? "back"
+                          : "back-back"
+                      }`}
                       data-index={2}
                       onClick={() => activeState.setActive(2)}
                     >
                       <Skills />
-                    </div>
+                    </div> */}
                     {/* Skills Ends */}
                   </div>
                 </div>
