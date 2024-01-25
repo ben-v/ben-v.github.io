@@ -48,12 +48,138 @@ const Portfolio = () => {
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Agriculture IoT
+                  Market Buy Planner
                   </span>
                 </div>
               </a>
             </div>
             {/* Project Ends */}
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(2)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-2.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                    Position Modeler
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(3)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-3.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                    Agile Pilot
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(4)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-4.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                    Semi-truck Control Systems
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(5)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-5.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                    Pipe Integrity Analysis
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}     
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(6)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-6.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                  Order Optimization
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */} 
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(7)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-7.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                  Agriculture IoT
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}                                
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(8)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-8.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                  OpenFMB/MQTT-SN
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}                                
           </div>
         </div>
       </div>

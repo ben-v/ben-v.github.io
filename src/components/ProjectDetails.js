@@ -35,8 +35,8 @@ const ProjectDetails = () => {
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
               <img
-                className="responsive-img"
-                src="images/projects/project-1.png"
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-1-d.png"
                 alt="Project"
               />
             </picture>
@@ -49,7 +49,11 @@ const ProjectDetails = () => {
               <li>
                 <i className="fa fa-user" />
                 <span className="font-weight-700 uppercase">Summary:</span>
-                <span className="font-weight-400">POC for agricultural environmental controls with IoT devices logging to cloud datastore with companion dashboard to interpret logged data.</span>
+                <span className="font-weight-400">
+                  POC for agricultural environmental controls with IoT devices
+                  logging to cloud datastore with companion dashboard to
+                  interpret logged data.
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
@@ -72,43 +76,38 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <ProjectSlider />
+            <picture>
+              <img
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-2-d.png"
+                alt="Project"
+              />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Slider Project</h3>
+            <h3 className="font-weight-700 uppercase">Position Modeler</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Themeforest</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  The trading (stock, crypto, etc.) position modeler is a single
+                  page web application. This application models buys/sells given
+                  the various buy/sell increments (i.e. buy at x% decrease or
+                  sell at y% increase until a certain % goal is reached).
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  php, html, css, javascript
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  .NET Core, C#, TypeScript, Angular, Angular Material, and
+                  MongoDB
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
@@ -122,54 +121,32 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <div className="videocontainer">
-              {activeProject == 3 && (
-                <iframe
-                  className="youtube-video"
-                  src="https://www.youtube.com/embed/7e90gBu4pas"
-                  title="YouTube video player"
-                  frameBorder={0}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen=""
-                />
-              )}
-            </div>
+            <picture>
+              <img
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-3-d.png"
+                alt="Project"
+              />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Youtube Video</h3>
+            <h3 className="font-weight-700 uppercase">Agile Pilot</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Photodune</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe After Effects, Adobe Audition
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  One of two engineers selected from across Nordstrom IT to lead
+                  the introduction of Agile to Nordstrom. The project had a
+                  threefold purpose; first, determine the business viability of
+                  a designer label virtual shopping experience, second,
+                  introduce Agile to Nordstrom, and third, provide guidance on
+                  enterprise adoption Agile moving forward.
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
@@ -183,43 +160,38 @@ const ProjectDetails = () => {
         <div className="row">
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            {/* <LocalVideo playing={activeProject} /> */}
+            <picture>
+              <img
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-4-d.png"
+                alt="Project"
+              />
+            </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Local Video</h3>
+            <h3 className="font-weight-700 uppercase">
+              Semi-truck Control Systems
+            </h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Videohive</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  Semi-truck controls application (built with C#, WinForms, XML,
+                  and serial comms) used to program {`truck's`} dashboard
+                  various signal lights at manufacturing plant.
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe After Effects, Movie Maker
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  .NET, C#, WinForms, XML, and RS-232
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
@@ -234,44 +206,36 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img src="images/projects/project-5.jpg" alt="project" />
+              <img
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-5-d.png"
+                alt="Project"
+              />
             </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">
+              Pipe Integrity Analysis
+            </h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Graphicriver</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  Pipe integrity analysis application processing/graphing up to
+                  four channels of streaming data simultaneously.
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Photoshop, Gimp
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  .NET, C#, WinForms, RS-232, open source graphing library
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
@@ -286,44 +250,34 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img src="images/projects/project-6.jpg" alt="project" />
+              <img
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-6-d.png"
+                alt="Project"
+              />
             </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">Order Optimization</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Activeden</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  Web-base excel like application to optimize the merchandise
+                  quantities in {`"case pack"`} orders.
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Flash, Paint
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  .NET, C#, WCF and jQuery
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
@@ -338,44 +292,31 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img src="images/projects/project-7.jpg" alt="project" />
+              <img src="images/projects/project-7-d.png" alt="project" />
             </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">Agriculture IoT</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">3D Ocean</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  POC for agricultural environmental controls with IoT devices
+                  logging to cloud datastore with companion dashboard to
+                  interpret logged data.
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  3DS Max, Adobe Photoshop
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  .NET Core, Cosmos DB, Angular and Angular Material
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
@@ -390,96 +331,29 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img src="images/projects/project-8.jpg" alt="project" />
+              <img src="images/projects/project-8-d.png" alt="project" />
             </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">OpenFMB/MQTT-SN</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Audiojungle</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  POC to evaluate the OpenFMB {`protocol's`} compatibility and efficiency working with MQTT/MQTT-SN.
+                </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Audition, Adobe Premiere
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  Go, BeagleBone Black
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
-          </div>
-          {/* Project Details Ends */}
-        </div>
-      </div>
-      {/* Project Ends */}
-      {/* Project Starts */}
-      <div
-        data-panel="panel-9"
-        className={activeProject == 9 ? "bl-show-work" : ""}
-      >
-        <div className="row">
-          {/* Project Main Content Starts */}
-          <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <picture>
-              <img src="images/projects/project-9.jpg" alt="project" />
-            </picture>
-          </div>
-          {/* Project Main Content Ends */}
-          {/* Project Details Starts */}
-          <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
-            <ul className="project-details second-font">
-              <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Audiojungle</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
-              </li>
-              <li>
-                <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  Adobe Audition, Adobe Premiere
-                </span>
-              </li>
-            </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
