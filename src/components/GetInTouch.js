@@ -68,11 +68,13 @@ const GetInTouch = () => {
           {/* Divider Ends */}
           <div className="row contact section-padding">
             {/* Contact Infos Starts */}
-            <div className="col s12 m5 l5 xl4 leftside">
+            <div className="col s12 m5 l5 xl4 leftside-2">
               {/* Contacts Starts */}
               {/* Contacts Ends */}
               {/* Social Media Profiles Starts */}
-              <h6 className="font-weight-700 uppercase">Social Profiles</h6>
+              <h6 className="font-weight-700 uppercase">
+                <span><i className="fa-solid fa-share-nodes"></i></span>Social Profiles
+              </h6>
               <div className="social">
                 <ul className="list-inline social social-intro center-align p-none">
                   <li className="social-icon">
