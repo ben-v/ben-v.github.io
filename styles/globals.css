@@ -163,7 +163,8 @@ div.bl-panel-items > div {
 }
 
 #bl-work-items .col a {
-  background-color: #4472c4;
+  /* background-color: #4472c4; */
+  background-color: #f08080;
   position: relative;
   display: flex;
   flex: 1 1 30%;

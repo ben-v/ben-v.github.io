@@ -36,46 +36,29 @@ const ProjectDetails = () => {
             <picture>
               <img
                 className="responsive-img"
-                src="images/projects/project-1.jpg"
-                alt="project"
+                src="images/projects/project-1.png"
+                alt="Project"
               />
             </picture>
           </div>
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Image Project</h3>
+            <h3 className="font-weight-700 uppercase">IOT Project</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
-                <span className="font-weight-700"> Client </span>:{" "}
-                <span className="font-weight-400 uppercase">Envato</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar"></i>
-                <span className="font-weight-700"> Start Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/09/2022</span>
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar-check"></i>
-                <span className="font-weight-700"> End Date </span>:{" "}
-                <span className="font-weight-400 uppercase">02/08/2023</span>
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">POC for agricultural environmental controls with IoT devices logging to cloud datastore with companion dashboard to interpret logged data.</span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700"> Used Technologies</span> :{" "}
-                <span className="font-weight-400 uppercase">
-                  php, html, css, javascript
+                <span className="font-weight-700 uppercase">Technologies:</span>
+                <span className="font-weight-400">
+                  .NET Core, Cosmos DB, Angular and Angular Material
                 </span>
               </li>
             </ul>
-            <hr />
-            <a
-              href="#"
-              className="waves-effect waves-light btn font-weight-700"
-            >
-              Preview <i className="fa fa-external-link" />
-            </a>
           </div>
           {/* Project Details Ends */}
         </div>
