@@ -44,22 +44,20 @@ const ProjectDetails = () => {
           {/* Project Main Content Ends */}
           {/* Project Details Starts */}
           <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">IOT Project</h3>
+            <h3 className="font-weight-700 uppercase">Market Buy Planner</h3>
             <ul className="project-details second-font">
               <li>
                 <i className="fa fa-user" />
                 <span className="font-weight-700 uppercase">Summary:</span>
                 <span className="font-weight-400">
-                  POC for agricultural environmental controls with IoT devices
-                  logging to cloud datastore with companion dashboard to
-                  interpret logged data.
+                  Merchandise buy planning application. In production since 2013 and processed $50+ billion in orders.
                 </span>
               </li>
               <li>
                 <i className="fa-solid fa-gears"></i>
                 <span className="font-weight-700 uppercase">Technologies:</span>
                 <span className="font-weight-400">
-                  .NET Core, Cosmos DB, Angular and Angular Material
+                  .NET, C#, WCF, WinForms, Oracle/RMS
                 </span>
               </li>
             </ul>
