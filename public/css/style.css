@@ -230,7 +230,7 @@ body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-field label,
 body.blog.dark .widget.recent-posts .entry-title a,
 body.blog.dark .widget-search input {
-  color: #eee;
+  color: #ccc;
 }
 
 body.dark .resume-card-header {
@@ -1017,7 +1017,7 @@ section.bl-expand .bl-icon-close {
   position: relative;
 }
 
-.resume-content span.date {
+.sub-text-font, .resume-content span.date {
   color: #aaa;
   font-size: 13px;
 }

@@ -469,9 +469,9 @@ const AboutUs = ({ dark }) => {
                 </p>
               </div>
               <div className="col s12 m12 l12">
-                <div className="row">
+                <div className="row sub-text-font">
                   <div className="col s12 m12 l12">
-                    <div className="row second-font p-none">
+                    <div className="row p-none">
                       <div className="icon-col">
                         <span>
                           <i className="fa-regular fa-flag"></i>
@@ -480,7 +480,7 @@ const AboutUs = ({ dark }) => {
                       <div className="font-weight-700 header-col">Nationality:</div>
                       <div className="body-col">US</div>
                     </div>
-                    <div className="row second-font p-none">
+                    <div className="row p-none">
                       <div className="icon-col">
                         <span>
                           <i className="fa-solid fa-globe"></i>
@@ -489,7 +489,7 @@ const AboutUs = ({ dark }) => {
                       <div className="font-weight-700 header-col">Language:</div>
                       <div className="body-col">English, Italian (Intermediate)</div>
                     </div>
-                    <div className="row second-font p-none">
+                    <div className="row p-none">
                       <div className="icon-col">
                         <span>
                           <i className="fa-solid fa-user-graduate"></i>
@@ -498,7 +498,7 @@ const AboutUs = ({ dark }) => {
                       <div className="font-weight-700 header-col">Education:</div>
                       <div className="body-col">Computer Science, Italian Studies - Gonzaga University</div>
                     </div>
-                    <div className="row second-font p-none">
+                    <div className="row p-none">
                       <div className="icon-col">
                         <span>
                           <i className="fa-regular fa-handshake"></i>
