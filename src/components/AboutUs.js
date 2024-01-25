@@ -179,8 +179,6 @@ const Experience_Schedulicity = () => (
     </div>
   </Fragment>
 );
-
-// const Education = () => (
 //   <Fragment>
 //     <div className="resume-card-header">
 //       <div className="resume-card-name">
@@ -402,9 +400,8 @@ const AboutUs = ({ dark }) => {
     const positionIndex = diff >= 0 ? diff : RESUME_CARD_COUNT + diff;
 
     // If the positionIndex is greater than the number of resume card carousel positions, return 'hidden' position.
-    cssClass = `position-${
-      positionIndex < RESUME_POSITION_COUNT ? positionIndex : "hidden"
-    }`;
+    cssClass = `position-${positionIndex < RESUME_POSITION_COUNT ? positionIndex : "hidden"
+      }`;
 
     // console.log(
     //   `cardIndex = ${cardIndex}, activeIndex = ${activeIndex}, cssClass = ${cssClass}`
@@ -471,38 +468,47 @@ const AboutUs = ({ dark }) => {
                   needs.
                 </p>
               </div>
-              <div className="col s12 m12 l6 p-none">
-                <ul className="second-font list-1">
-                  <li>
-                    <span>
-                      <i className="fa-regular fa-flag"></i>
-                    </span>
-                    <div className="font-weight-700">Nationality:</div>US
-                  </li>
-                  <li>
-                    <span>
-                      <i className="fa-solid fa-globe"></i>
-                    </span>
-                    <div className="font-weight-700">Langages: </div>English, Italian (Intermediate)
-                  </li>                  
-                  <li>
-                    <span>
-                      <i className="fa-solid fa-user-graduate"></i>
-                    </span>
-                    <div className="font-weight-700">Education: </div><div>Computer Science, Italian Studies - Gonzaga University</div>
-                  </li>
-                </ul>
-              </div>
-              <div className="col s12 m12 l6 p-none">
-                <ul className="second-font list-2">
-                <li>
-                    <span>
-                      <i className="fa-regular fa-handshake"></i>
-                    </span>
-                    <div className="font-weight-700">Open To: </div>
-                    Freelance/1099, W-2
-                  </li>
-                </ul>
+              <div className="col s12 m12 l12">
+                <div className="row">
+                  <div className="col s12 m12 l12">
+                    <div className="row second-font p-none">
+                      <div className="icon-col">
+                        <span>
+                          <i className="fa-regular fa-flag"></i>
+                        </span>
+                      </div>
+                      <div className="font-weight-700 header-col">Nationality:</div>
+                      <div className="body-col">US</div>
+                    </div>
+                    <div className="row second-font p-none">
+                      <div className="icon-col">
+                        <span>
+                          <i className="fa-solid fa-globe"></i>
+                        </span>
+                      </div>
+                      <div className="font-weight-700 header-col">Language:</div>
+                      <div className="body-col">English, Italian (Intermediate)</div>
+                    </div>
+                    <div className="row second-font p-none">
+                      <div className="icon-col">
+                        <span>
+                          <i className="fa-solid fa-user-graduate"></i>
+                        </span>
+                      </div>
+                      <div className="font-weight-700 header-col">Education:</div>
+                      <div className="body-col">Computer Science, Italian Studies - Gonzaga University</div>
+                    </div>
+                    <div className="row second-font p-none">
+                      <div className="icon-col">
+                        <span>
+                          <i className="fa-regular fa-handshake"></i>
+                        </span>
+                      </div>
+                      <div className="font-weight-700 header-col">Open To:</div>
+                      <div className="body-col">Freelance/1099, W-2</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -517,9 +523,8 @@ const AboutUs = ({ dark }) => {
               <div className="resume-list col l4 section-padding">
                 {/* Resideo Button */}
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 0 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 0 ? "is-active" : ""
+                    }`}
                   data-index={0}
                   id="resume-list-item-0"
                 >
@@ -538,9 +543,8 @@ const AboutUs = ({ dark }) => {
                 {/* Resideo Button End */}
                 {/* Infinetix Button Start */}
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 1 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 1 ? "is-active" : ""
+                    }`}
                   data-index={1}
                   id="resume-list-item-0"
                 >
@@ -559,9 +563,8 @@ const AboutUs = ({ dark }) => {
                 {/* Infinetix Button End */}
                 {/* Nordstrom Button Start */}
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 2 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 2 ? "is-active" : ""
+                    }`}
                   data-index={2}
                   id="resume-list-item-2"
                 >
@@ -580,9 +583,8 @@ const AboutUs = ({ dark }) => {
                 {/* Infinetix Button End */}
                 {/* Schedulicity Button Start */}
                 <div
-                  className={`resume-list-item ${
-                    activeState.active === 3 ? "is-active" : ""
-                  }`}
+                  className={`resume-list-item ${activeState.active === 3 ? "is-active" : ""
+                    }`}
                   data-index={2}
                   id="resume-list-item-3"
                 >
