@@ -112,7 +112,7 @@ const GetInTouch = () => {
             {/* Contact Form Starts */}
             <div className="col s12 m7 l7 xl8 rightside">
               <h6 className="uppercase m-none font-weight-700">
-                <span><i className="fa-solid fa-feather"></i></span>Drop me a line
+                <span><i className="fa-solid fa-file-signature"></i></span>Drop me a line
               </h6>
               <div className="row">
                 <p className="col s12 m12 l12 xl12 second-font">
