@@ -179,8 +179,6 @@ const Experience_Schedulicity = () => (
     </div>
   </Fragment>
 );
-
-// const Education = () => (
 //   <Fragment>
 //     <div className="resume-card-header">
 //       <div className="resume-card-name">
