@@ -211,6 +211,7 @@ body.dark .page-title h2 span:first-child,
 body.dark .page-title h2 span:nth-child(2)::before,
 body.dark .personal-info h6,
 body.dark .personal-info ul li span,
+
 body.dark .resume-content h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside h6,
 body.blog.dark  article h4,
@@ -223,6 +224,7 @@ body.blog.dark .widget-tags ul > li a:hover {
 body.dark .bl-main>section.topleft .bl-box .ah-headline span:first-child,
 body.dark .bl-content p,
 body.dark .personal-info ul li,
+body.dark .personal-info .row,
 body.dark .badges h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-field label,
@@ -769,9 +771,38 @@ section.bl-expand .bl-icon-close {
   min-width: 32px;
 }
 
-.personal-info ul li {
-  padding-bottom: 12px;
+.personal-info p {
+  margin-bottom: 24px;
 }
+
+.personal-info .row {
+  display: flex; 
+  justify-content: left;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 0;
+  margin-bottom: 6px;
+  /* padding-bottom: 12px; */
+}
+
+.personal-info .row .icon-col {
+  min-width: 32px;
+  max-width: 32px;
+}
+
+.personal-info .row .header-col {
+  min-width: 88px;
+  max-width: 88px;
+}
+
+.personal-info .row .body-col {
+  flex: 1;
+  text-wrap: wrap;
+}
+
+/* .personal-info ul li {
+  padding-bottom: 12px;
+} */
 
 .personal-info ul li div {
   display:inline-block;
@@ -791,15 +822,15 @@ section.bl-expand .bl-icon-close {
   color: #222;
 } */
 
-.personal-info a.btn {
+/* .personal-info a.btn {
   margin-top: -7px;
   height: 42px;
   line-height: 42px;
   font-size: 15px;
   float: left;
-}
+} */
 
-.personal-info a.btn:not(.btn-blog) {
+/* .personal-info a.btn:not(.btn-blog) {
   margin-right: 25px;
 }
 
@@ -810,7 +841,7 @@ section.bl-expand .bl-icon-close {
 
 .personal-info a.btn.btn-blog:hover {
   color: #fff;
-}
+} */
 
 
 /*** Resume Panels ***/
