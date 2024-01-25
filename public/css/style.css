@@ -214,6 +214,7 @@ body.dark .personal-info ul li span,
 
 body.dark .resume-content h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside h6,
+body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside-2 h6,
 body.blog.dark  article h4,
 body.blog.dark .sidebar .widget-title,
 body.dark div.bl-panel-items>div,
@@ -1504,14 +1505,28 @@ ul.social-intro li a {
 
 /*** Right Side ***/
 
+.leftside-2 div {
+  margin: 14px 0;
+}
+
+.leftside-2 h6 {
+  margin: 0;
+}
+
+.leftside-2 h6 span,
 .rightside h6 span {
   display:inline-block;
   min-width: 32px;
 }
 
+/* .bl-main>section:nth-child(4).bl-expand .contact .leftside-2, */
 .bl-main>section:nth-child(4).bl-expand .contact .rightside {
   padding: 0 1.5rem;
 }
+
+/* .bl-main>section:nth-child(4).bl-expand .contact .leftside-2 {
+  font-size: 14px;
+} */
 
 .bl-main>section:nth-child(4).bl-expand .contact .rightside p {
   font-size: 14px;
@@ -2144,6 +2159,7 @@ body.blog .pagination li a i {
     margin-top: 45px;
   }
 
+  .bl-main>section:nth-child(4).bl-expand .contact .leftside-2,
   .bl-main>section:nth-child(4).bl-expand .contact .rightside {
     margin-top: 50px;
     padding: 0;
