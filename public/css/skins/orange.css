@@ -62,4 +62,8 @@ body.blog .btn.back ,
 #preloader .spinner,
 .spinner-only {
   border-color: #fa5b0f;
+} 
+
+.project-detail-panel-image {
+	background-color: #fa5b0f;	
 }

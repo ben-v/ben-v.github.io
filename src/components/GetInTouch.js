@@ -130,6 +130,7 @@ const GetInTouch = () => {
                     value={name}
                     type="text"
                     className="validate"
+                    autoComplete="given-name"
                     required=""
                   />
                   <label className="font-weight-400" htmlFor="name">
@@ -147,6 +148,7 @@ const GetInTouch = () => {
                     onChange={(e) => onChange(e)}
                     value={email}
                     className="validate"
+                    autoComplete="email"
                     required=""
                   />
                   <label htmlFor="email">Your Email</label>

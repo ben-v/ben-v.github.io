@@ -42,160 +42,144 @@ const Portfolio = () => {
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-1.jpg"
+                    src="images/projects/project-1.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                  Market Buy Planner
                   </span>
                 </div>
               </a>
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-2">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(2)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-2.jpg"
+                    src="images/projects/project-2.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Slider Project
+                    Position Modeler
                   </span>
                 </div>
               </a>
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-3">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(3)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-3.jpg"
+                    src="images/projects/project-3.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Youtube Video
+                    Agile Pilot
                   </span>
                 </div>
               </a>
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-4">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(4)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-4.jpg"
+                    src="images/projects/project-4.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
-                  <span className="font-weight-700 uppercase">Local Video</span>
+                  <span className="font-weight-700 uppercase">
+                    Semi-truck Control Systems
+                  </span>
                 </div>
               </a>
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-5">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(5)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-5.jpg"
+                    src="images/projects/project-5.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                    Pipe Integrity Analysis
                   </span>
                 </div>
               </a>
             </div>
-            {/* Project Ends */}
+            {/* Project Ends */}     
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-6">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(6)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-6.jpg"
+                    src="images/projects/project-6.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                  Order Optimization
                   </span>
                 </div>
               </a>
             </div>
-            {/* Project Ends */}
+            {/* Project Ends */} 
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-7">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(7)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-7.jpg"
+                    src="images/projects/project-7.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                  Agriculture IoT
                   </span>
                 </div>
               </a>
             </div>
-            {/* Project Ends */}
+            {/* Project Ends */}                                
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-8">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
               <a href="#" onClick={() => activeShowProject(8)}>
                 <picture>
                   <img
                     className="responsive-img"
-                    src="images/projects/project-8.jpg"
+                    src="images/projects/project-8.png"
                     alt="Project"
                   />
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Image Project
+                  OpenFMB/MQTT-SN
                   </span>
                 </div>
               </a>
             </div>
-            {/* Project Ends */}
-            {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-9">
-              <a href="#" onClick={() => activeShowProject(9)}>
-                <picture>
-                  <img
-                    className="responsive-img"
-                    src="images/projects/project-9.jpg"
-                    alt="Project"
-                  />
-                </picture>
-                <div className="valign-wrapper">
-                  <span className="font-weight-700 uppercase">
-                    Image Project
-                  </span>
-                </div>
-              </a>
-            </div>
-            {/* Project Ends */}
+            {/* Project Ends */}                                
           </div>
         </div>
       </div>
