@@ -113,7 +113,7 @@ const GetInTouch = () => {
                 <span><i className="fa-solid fa-feather"></i></span>Drop me a line
               </h6>
               <div className="row">
-                <p className="col s12 m12 l12 xl10 second-font">
+                <p className="col s12 m12 l12 xl12 second-font">
                   If you have any suggestions, project ideas, or specific challenges {`you'd`} like to discuss, please fill out the form below to send me a message. Whether {`it's`} innovative technology solutions, process improvements, or collaboration opportunities, {`I'm`} happy to discuss with you and will reply shortly.
                 </p>
               </div>
