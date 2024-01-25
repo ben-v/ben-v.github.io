@@ -454,7 +454,7 @@ const AboutUs = ({ dark }) => {
               <div className="col m12 l12 xl12 p-none">
                 <p className="second-font">
                   I specialize in building highly productive and effective
-                  engineering teams for small to medium-sized businesses. My
+                  engineering teams for small to medium-sized businesses be-it as a manager, lead or IC. My
                   approach is rooted in the belief that the best solutions
                   emerge from diverse minds working together. I am driven by a
                   combination of customer focus, collaborative teamwork, and
