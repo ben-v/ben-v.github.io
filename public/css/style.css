@@ -210,8 +210,7 @@ body.dark .bl-main>section.topleft .bl-box .ah-headline.clip .my-name,
 body.dark .page-title h2 span:first-child,
 body.dark .page-title h2 span:nth-child(2)::before,
 body.dark .personal-info h6,
-body.dark .personal-info ul li span,
-
+body.dark .project-info h3,
 body.dark .resume-content h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside-2 h6,
@@ -224,8 +223,8 @@ body.blog.dark .widget-tags ul > li a:hover {
 
 body.dark .bl-main>section.topleft .bl-box .ah-headline span:first-child,
 body.dark .bl-content p,
-body.dark .personal-info ul li,
 body.dark .personal-info .row,
+body.dark .project-info .row,
 body.dark .badges h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-field label,
@@ -761,10 +760,30 @@ section.bl-expand .bl-icon-close {
   display: none;
 }
 
+.project-info>div>div h3 {
+  margin-top: 0;
+  margin: 0 !important;
+  font-weight: 700;
+}
+
 .personal-info h6 {
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: 600;
+}
+
+.project-info h3 {
+  margin: 0 0 12px !important;
+  font-weight: 600;
+}
+
+.project-info {
+  padding: 75px 24px 24px 24px !important;
+}
+
+.project-info h3 span {
+  display:inline-block;
+  min-width: 48px;
 }
 
 .personal-info h6 span {
@@ -773,10 +792,15 @@ section.bl-expand .bl-icon-close {
 }
 
 .personal-info p {
-  margin-bottom: 24px;
+  margin: 0 0 24px !important;
 }
 
-.personal-info .row {
+.project-info p {
+  margin: 0 0 12px !important;
+}
+
+.personal-info .row,
+.project-info .row {
   display: flex; 
   justify-content: left;
   flex-wrap: nowrap;
@@ -786,19 +810,26 @@ section.bl-expand .bl-icon-close {
   /* padding-bottom: 12px; */
 }
 
-.personal-info .row .icon-col {
+.personal-info .row .icon-col,
+.project-info .row .icon-col {
   min-width: 32px;
   max-width: 32px;
 }
 
-.personal-info .row .header-col {
-  min-width: 88px;
-  max-width: 88px;
+.personal-info .row .header-col,
+.project-info .row .header-col {
+  min-width: 80px;
+  max-width: 80px;
 }
 
-.personal-info .row .body-col {
+.personal-info .row .body-col,
+.project-info .row .body-col {
   flex: 1;
   text-wrap: wrap;
+}
+
+.project-info ul li {
+ list-style-type: disc !important;
 }
 
 /* .personal-info ul li {
@@ -2194,10 +2225,6 @@ body.blog .pagination li a i {
     margin-top: 10px;
   }
 
-  .personal-info p {
-    margin-bottom: 5px;
-  }
-
   div.bl-panel-items>div>div {
     top: 0;
     bottom: 0px;
@@ -2399,4 +2426,8 @@ body.blog .pagination li a i {
   .resume-card-body-container {
     padding: 15px;
   } 
+}
+
+.project-detail-panel-image {
+  margin-bottom: 24px;
 }
