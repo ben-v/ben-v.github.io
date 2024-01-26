@@ -30,40 +30,49 @@ const ProjectDetails = () => {
         data-panel="panel-1"
         className={activeProject == 1 ? "bl-show-work" : ""}
       >
-        <div className="row">
-          {/* Project Main Content Starts */}
-          <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <picture>
-              <img
-                className="responsive-img project-detail-panel-image"
-                src="images/projects/project-1-d.png"
-                alt="Project"
-              />
-            </picture>
+        <div className="col">
+          <div className="row">
+            {/* Project Main Content Starts */}
+            <div className="col s12 m6 l6 xl6 section-padding section-padding-right-none">
+              <picture>
+                <img
+                  className="responsive-img project-detail-panel-image"
+                  src="images/projects/project-1-d.png"
+                  alt="Project"
+                />
+              </picture>
+            </div>
+            {/* Project Main Content Ends */}
+            {/* Project Details Starts */}
+            <div className="col s12 l6 xl6">
+              <div className="row section-padding">
+                <h3 className="font-weight-700 uppercase">
+                  <span>
+                    <i className="fa-solid fa-briefcase" />
+                  </span>
+                  Buy Planner
+                </h3>
+              </div>
+              <div className="row section-padding">
+                <p className="second-font">
+                  Merchandise buy planning application. In production since 2013 and processed $50+ billion in orders.
+                </p>
+              </div>
+              <div className="row section-padding second-font">
+                <ul>
+                  <li>.NET</li>
+                  <li>C#</li>
+                  <li>WCF</li>
+                  <li>Winforms</li>
+                  <li>DevExpress</li>
+                  <li>Oracle/RMS</li>
+                  <li>Git</li>
+                  <li>Jenkins</li>
+                </ul>
+              </div>
+            </div>
+            {/* Project Details Ends */}
           </div>
-          {/* Project Main Content Ends */}
-          {/* Project Details Starts */}
-          <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Market Buy Planner</h3>
-            <ul className="project-details second-font">
-              <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700 uppercase">Summary:</span>
-                <span className="font-weight-400">
-                  Merchandise buy planning application. In production since 2013
-                  and processed $50+ billion in orders.
-                </span>
-              </li>
-              <li>
-                <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700 uppercase">Technologies:</span>
-                <span className="font-weight-400">
-                  .NET, C#, WCF, WinForms, Oracle/RMS
-                </span>
-              </li>
-            </ul>
-          </div>
-          {/* Project Details Ends */}
         </div>
       </div>
       {/* Project Ends */}
@@ -72,43 +81,50 @@ const ProjectDetails = () => {
         data-panel="panel-2"
         className={activeProject == 2 ? "bl-show-work" : ""}
       >
-        <div className="row">
-          {/* Project Main Content Starts */}
-          <div className="col s12 l6 xl6 section-padding section-padding-right-none">
-            <picture>
-              <img
-                className="responsive-img project-detail-panel-image"
-                src="images/projects/project-2-d.png"
-                alt="Project"
-              />
-            </picture>
-          </div>
-          {/* Project Main Content Ends */}
-          {/* Project Details Starts */}
-          <div className="col s12 l6 xl6 section-padding">
-            <h3 className="font-weight-700 uppercase">Position Modeler</h3>
-            <ul className="project-details second-font">
-              <li>
-                <i className="fa fa-user" />
-                <span className="font-weight-700 uppercase">Summary:</span>
-                <span className="font-weight-400">
+        <div className="col">
+          {/* Project Information Starts */}
+          <div className="row project-info">
+            {/* Project Pic Starts */}
+            <div className="col s12 m6 l6 xl6 section-padding-right-none">
+              <picture>
+                <img
+                  className="responsive-img project-detail-panel-image"
+                  src="images/projects/project-2-d.png"
+                  alt="Project"
+                />
+              </picture>
+            </div>
+            {/* Project Pic Ends */}
+            {/* Project Content Starts */}
+            <div className="col s12 m6 l6 xl6">
+              <h3 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-briefcase" />
+                </span>
+                Position Modeler
+              </h3>
+              <div className="col p-none">
+                <p className="second-font">
                   The trading (stock, crypto, etc.) position modeler is a single
                   page web application. This application models buys/sells given
                   the various buy/sell increments (i.e. buy at x% decrease or
                   sell at y% increase until a certain % goal is reached).
-                </span>
-              </li>
-              <li>
-                <i className="fa-solid fa-gears"></i>
-                <span className="font-weight-700 uppercase">Technologies:</span>
-                <span className="font-weight-400">
-                  .NET Core, C#, TypeScript, Angular, Angular Material, and
-                  MongoDB
-                </span>
-              </li>
-            </ul>
+                </p>
+              </div>
+              <div className="col sub-text-font">
+                  <ul>
+                    <li>.NET Core</li>
+                    <li>C#</li>
+                    <li>TypeScript</li>
+                    <li>Angular</li>
+                    <li>Angular Material</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+              </div>
           </div>
-          {/* Project Details Ends */}
+          {/* Project Content Ends */}
+          {/* Project Information Ends */}
         </div>
       </div>
       {/* Project Ends */}
@@ -291,7 +307,7 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img 
+              <img
                 className="responsive-img project-detail-panel-image"
                 src="images/projects/project-7-d.png"
                 alt="project" />
@@ -333,9 +349,9 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img 
+              <img
                 className="responsive-img project-detail-panel-image"
-                src="images/projects/project-8-d.png" 
+                src="images/projects/project-8-d.png"
                 alt="project" />
             </picture>
           </div>
@@ -372,9 +388,9 @@ const ProjectDetails = () => {
           {/* Project Main Content Starts */}
           <div className="col s12 l6 xl6 section-padding section-padding-right-none">
             <picture>
-              <img 
+              <img
                 className="responsive-img project-detail-panel-image"
-                src="images/projects/project-9-d.png" 
+                src="images/projects/project-9-d.png"
                 alt="project" />
             </picture>
           </div>
@@ -395,7 +411,7 @@ const ProjectDetails = () => {
           {/* Project Details Ends */}
         </div>
       </div>
-      {/* Project Ends */}      
+      {/* Project Ends */}
       {/* Portfolio Navigation Starts */}
       <nav>
         {/* Previous Work Icon Starts */}
