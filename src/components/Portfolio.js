@@ -55,7 +55,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-2">
               <a href="#" onClick={() => activeShowProject(2)}>
                 <picture>
                   <img
@@ -73,7 +73,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-3">
               <a href="#" onClick={() => activeShowProject(3)}>
                 <picture>
                   <img
@@ -91,7 +91,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-4">
               <a href="#" onClick={() => activeShowProject(4)}>
                 <picture>
                   <img
@@ -109,7 +109,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-5">
               <a href="#" onClick={() => activeShowProject(5)}>
                 <picture>
                   <img
@@ -127,7 +127,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}     
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-6">
               <a href="#" onClick={() => activeShowProject(6)}>
                 <picture>
                   <img
@@ -145,7 +145,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */} 
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-7">
               <a href="#" onClick={() => activeShowProject(7)}>
                 <picture>
                   <img
@@ -163,7 +163,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}                                
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-8">
               <a href="#" onClick={() => activeShowProject(8)}>
                 <picture>
                   <img
@@ -181,7 +181,7 @@ const Portfolio = () => {
             </div>
             {/* Project Ends */}                                
             {/* Project Starts */}
-            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+            <div className="col s12 m6 l6 xl4" data-panel="panel-9">
               <a href="#" onClick={() => activeShowProject(9)}>
                 <picture>
                   <img
