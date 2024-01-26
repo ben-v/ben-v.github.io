@@ -445,7 +445,7 @@ const ProjectDetails = () => {
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                Have a project to dig into and could use some help? Please reach out, {`I'm`} happy to dive into the scope of work to help you!!
+                Have a project to dig into or could use some help with your engineering team? Please reach out! {`I'm`} happy to dive into the details and assist you!
                 </p>
               </div>
             </div>
