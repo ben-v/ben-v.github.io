@@ -363,6 +363,39 @@ const ProjectDetails = () => {
         </div>
       </div>
       {/* Project Ends */}
+      {/* Project Starts */}
+      <div
+        data-panel="panel-9"
+        className={activeProject == 9 ? "bl-show-work" : ""}
+      >
+        <div className="row">
+          {/* Project Main Content Starts */}
+          <div className="col s12 l6 xl6 section-padding section-padding-right-none">
+            <picture>
+              <img 
+                className="responsive-img project-detail-panel-image"
+                src="images/projects/project-9-d.png" 
+                alt="project" />
+            </picture>
+          </div>
+          {/* Project Main Content Ends */}
+          {/* Project Details Starts */}
+          <div className="col s12 l6 xl6 section-padding">
+            <h3 className="font-weight-700 uppercase">{`Let's`} Talk</h3>
+            <ul className="project-details second-font">
+              <li>
+                <i className="fa fa-user" />
+                <span className="font-weight-700 uppercase">Summary:</span>
+                <span className="font-weight-400">
+                  Have a project to dig into and could use some help? Please reach out, {`I'm`} happy to dig into the scope of work to help you!!
+                </span>
+              </li>
+            </ul>
+          </div>
+          {/* Project Details Ends */}
+        </div>
+      </div>
+      {/* Project Ends */}      
       {/* Portfolio Navigation Starts */}
       <nav>
         {/* Previous Work Icon Starts */}

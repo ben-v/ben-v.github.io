@@ -180,6 +180,24 @@ const Portfolio = () => {
               </a>
             </div>
             {/* Project Ends */}                                
+            {/* Project Starts */}
+            <div className="col s12 m6 l6 xl4" data-panel="panel-1">
+              <a href="#" onClick={() => activeShowProject(9)}>
+                <picture>
+                  <img
+                    className="responsive-img"
+                    src="images/projects/project-9.png"
+                    alt="Project"
+                  />
+                </picture>
+                <div className="valign-wrapper">
+                  <span className="font-weight-700 uppercase">
+                  {`Let's Talk`}
+                  </span>
+                </div>
+              </a>
+            </div>
+            {/* Project Ends */}                                
           </div>
         </div>
       </div>

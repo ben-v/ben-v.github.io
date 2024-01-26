@@ -45,7 +45,7 @@ const IndexDark = () => {
             </div>
           </div>
         </section>
-        <AboutUs dark />
+        <AboutUs />
         <Portfolio />
         <GetInTouch />
         <ProjectDetails />
