@@ -102,7 +102,7 @@ const Portfolio = () => {
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                    Semi-truck Control Systems
+                    Truck Control Systems
                   </span>
                 </div>
               </a>
