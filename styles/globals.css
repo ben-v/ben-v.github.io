@@ -46,7 +46,7 @@ div.bl-panel-items > div {
 }
 /*Animate overlay and move it 'above'*/
 #bl-work-items .col a .valign-wrapper {
-  transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-101%, 0, 0);
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -87,7 +87,7 @@ div.bl-panel-items > div {
 /* Sliding animations ! */
 @keyframes slide--enter-top {
   0% {
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -101%, 0);
   }
   100% {
     transform: none;
@@ -95,7 +95,7 @@ div.bl-panel-items > div {
 }
 @keyframes slide--enter-right {
   0% {
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(101%, 0, 0);
   }
   100% {
     transform: none;
@@ -103,7 +103,7 @@ div.bl-panel-items > div {
 }
 @keyframes slide--enter-bottom {
   0% {
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 101%, 0);
   }
   100% {
     transform: none;
@@ -111,7 +111,7 @@ div.bl-panel-items > div {
 }
 @keyframes slide--enter-left {
   0% {
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-101%, 0, 0);
   }
   100% {
     transform: none;
@@ -122,7 +122,7 @@ div.bl-panel-items > div {
     transform: none;
   }
   100% {
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -101%, 0);
   }
 }
 @keyframes slide--leave-right {
@@ -130,7 +130,7 @@ div.bl-panel-items > div {
     transform: none;
   }
   100% {
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(101%, 0, 0);
   }
 }
 @keyframes slide--leave-bottom {
@@ -138,7 +138,7 @@ div.bl-panel-items > div {
     transform: none;
   }
   100% {
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 101%, 0);
   }
 }
 @keyframes slide--leave-left {
@@ -146,7 +146,7 @@ div.bl-panel-items > div {
     transform: none;
   }
   100% {
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-101%, 0, 0);
   }
 }
 
