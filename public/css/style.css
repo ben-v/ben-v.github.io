@@ -211,6 +211,10 @@ body.dark .page-title h2 span:first-child,
 body.dark .page-title h2 span:nth-child(2)::before,
 body.dark .personal-info h6,
 body.dark .project-info h3,
+body.dark .project-info h6,
+.personal-info .header-col,
+.personal-info .icon-col,
+.project-info .header-col,
 body.dark .resume-content h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside-2 h6,
@@ -225,6 +229,7 @@ body.dark .bl-main>section.topleft .bl-box .ah-headline span:first-child,
 body.dark .bl-content p,
 body.dark .personal-info .row,
 body.dark .project-info .row,
+body.dark .project-info .col ,
 body.dark .badges h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-field label,
@@ -766,10 +771,18 @@ section.bl-expand .bl-icon-close {
   font-weight: 700;
 }
 
-.personal-info h6 {
+.personal-info h6, 
+.project-info h6 {
   margin-top: 0;
-  margin-bottom: 12px;
   font-weight: 600;
+}
+
+.personal-info h6 {
+  margin-bottom: 12px;
+}
+
+.project-info h6 {
+  margin-bottom: 0;
 }
 
 .project-info h3 {
@@ -786,7 +799,8 @@ section.bl-expand .bl-icon-close {
   min-width: 48px;
 }
 
-.personal-info h6 span {
+.personal-info h6 span,
+.project-info h6 span {
   display:inline-block;
   min-width: 32px;
 }
@@ -796,7 +810,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .project-info p {
-  margin: 0 0 12px !important;
+  margin: 0 0 24px !important;
 }
 
 .personal-info .row,

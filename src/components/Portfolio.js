@@ -48,7 +48,7 @@ const Portfolio = () => {
                 </picture>
                 <div className="valign-wrapper">
                   <span className="font-weight-700 uppercase">
-                  Market Buy Planner
+                  Buy Planner
                   </span>
                 </div>
               </a>
