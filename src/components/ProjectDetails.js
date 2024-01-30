@@ -1,8 +1,19 @@
 import { memo, useContext, useEffect, useState } from "react";
 import { Context } from "../context/context";
-// import { LocalVideo } from "./ItemDetailsContent";
 
 import dynamic from "next/dynamic";
+import Image from "next/image";
+
+import imageProject1d from '../../public/images/projects/project-1-d.png';
+import imageProject2d from '../../public/images/projects/project-2-d.png';
+import imageProject3d from '../../public/images/projects/project-3-d.png';
+import imageProject4d from '../../public/images/projects/project-4-d.png';
+import imageProject5d from '../../public/images/projects/project-5-d.png';
+import imageProject6d from '../../public/images/projects/project-6-d.png';
+import imageProject7d from '../../public/images/projects/project-7-d.png';
+import imageProject8d from '../../public/images/projects/project-8-d.png';
+import imageProject9d from '../../public/images/projects/project-9-d.png';
+import imageClose from '../../public/images/close-button.png';
 
 const ProjectSlider = dynamic(() => import("./ItemDetailsContent"), {
   ssr: false,
@@ -35,13 +46,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-1-d.png"
+                  src={imageProject1d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -87,13 +98,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-2-d.png"
+                  src={imageProject2d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -140,13 +151,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-3-d.png"
+                  src={imageProject3d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -184,13 +195,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-4-d.png"
+                  src={imageProject4d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -234,13 +245,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-5-d.png"
+                  src={imageProject5d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -282,13 +293,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-6-d.png"
+                  src={imageProject6d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -330,13 +341,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-7-d.png"
+                  src={imageProject7d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -380,13 +391,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-8-d.png"
+                  src={imageProject8d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -426,20 +437,20 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
+              
+                <Image
                   className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-9-d.png"
+                  src={imageProject9d}
                   alt="Project"
                 />
-              </picture>
+              
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
             <div className="col s12 m6 l6 xl6">
               <h3 className="uppercase">
                 <span>
-                  <i className="fa-solid fa-briefcase" />
+                  <i className="fa-solid fa-phone" />
                 </span>
                 {`Let's`} Talk
               </h3>
@@ -455,6 +466,7 @@ const ProjectDetails = () => {
         </div>
       </div>
       {/* Project Ends */}
+
       {/* Portfolio Navigation Starts */}
       <nav>
         {/* Previous Work Icon Starts */}
@@ -468,17 +480,15 @@ const ProjectDetails = () => {
         </span>
         {/* Previous Work Icon Ends */}
         {/* Close Work Icon Starts */}
-        <picture>
-          <img
-            alt="close"
-            src="images/close-button.png"
-            className="control-button bl-icon-close"
-            onClick={() => {
-              showProjectFunction();
-              activeProjectFunction(null);
-            }}
-          />
-        </picture>
+        <Image
+          alt="close"
+          src={imageClose}
+          className="control-button bl-icon-close"
+          onClick={() => {
+            showProjectFunction();
+            activeProjectFunction(null);
+          }}
+        />
         {/* Close Work Icon Ends */}
         {/* Next Work Icon Starts */}
         <span

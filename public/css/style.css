@@ -2430,4 +2430,6 @@ body.blog .pagination li a i {
 
 .project-detail-panel-image {
   margin-bottom: 24px;
+  height: 400px;
+  width: 535px;
 }
