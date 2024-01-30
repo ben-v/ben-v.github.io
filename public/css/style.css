@@ -2256,12 +2256,14 @@ body.blog .pagination li a i {
   .bl-main>section .bl-icon-close {
     top: 20px;
     right: 20px;
+    height: 22px;
     width: 22px;
   }
 
   div.bl-panel-items.bl-panel-items-show .control-button.bl-icon-close {
-    top: 35px;
-    right: 35px;
+    top: 20px;
+    right: 20px;
+    height: 22px;
     width: 22px;
   }
 
