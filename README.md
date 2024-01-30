@@ -1,1 +1,1 @@
-My "Virtual Biz Card" website. 
+My "Virtual Biz Card" website hosted/deployed to GitHub Pages.
