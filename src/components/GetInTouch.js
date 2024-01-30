@@ -62,7 +62,7 @@ const GetInTouch = () => {
           {/* Divider Starts */}
           <div className="divider center-align">
             <span className="outer-line" />
-            <span className="fa fa-envelope-open" aria-hidden="true" />
+            <span className="fa-solid fa-envelope-open" aria-hidden="true" />
             <span className="outer-line" />
           </div>
           {/* Divider Ends */}

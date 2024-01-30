@@ -18,7 +18,7 @@ const SingleBlog = ({ dark }) => {
       {/* Divider Starts */}
       <div className="divider center-align">
         <span className="outer-line" />
-        <span className="fa fa-vcard" aria-hidden="true" />
+        <span className="fa-solid fa-vcard" aria-hidden="true" />
         <span className="outer-line" />
       </div>
       {/* Divider Ends */}

@@ -224,7 +224,7 @@ const AboutUs = ({ dark }) => {
           {/* Divider Starts */}
           <div className="divider center-align">
             <span className="outer-line" />
-            <span className="fa fa-address-card" aria-hidden="true" />
+            <span className="fa-solid fa-address-card" aria-hidden="true" />
             <span className="outer-line" />
           </div>
           {/* Divider Ends */}
@@ -401,7 +401,7 @@ const AboutUs = ({ dark }) => {
                 {/* Divider Starts */}
                 <div className="divider center-align">
                   <span className="outer-line" />
-                  <span className="fa fa-download" aria-hidden="true" />
+                  <span className="fa-solid fa-download" aria-hidden="true" />
                   <span className="outer-line" />
                 </div>
                 {/* Divider Ends */}
