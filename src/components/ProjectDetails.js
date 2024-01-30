@@ -57,13 +57,19 @@ const ProjectDetails = () => {
                 <span>
                   <i className="fa-solid fa-briefcase" />
                 </span>
-                Market Buy Planner
+                Buy Planner
               </h3>
               <div className="col p-none">
                 <p className="second-font">
                   Merchandise buy planning application. In production since 2013 and processed $50+ billion in orders.
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>.NET</li>
@@ -119,6 +125,12 @@ const ProjectDetails = () => {
                   sell at y% increase until a certain % goal is reached).
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>.NET Core</li>
@@ -215,6 +227,12 @@ const ProjectDetails = () => {
                   various signal lights at manufacturing plant.
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>.NET</li>
@@ -256,14 +274,20 @@ const ProjectDetails = () => {
                 <span>
                   <i className="fa-solid fa-briefcase" />
                 </span>
-                PIPE INTEGRITY ANALYzer
+                Data Sampler
               </h3>
               <div className="col p-none">
                 <p className="second-font">
                   Pipe integrity analysis application processing/graphing up to
-                  four channels of streaming data simultaneously.
+                  four channels of streaming data samples simultaneously.
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>.NET</li>
@@ -312,6 +336,12 @@ const ProjectDetails = () => {
                   quantities in {`"case pack"`} orders.
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>.NET</li>
@@ -361,6 +391,12 @@ const ProjectDetails = () => {
                   interpret logged data.
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>.NET Core</li>
@@ -410,6 +446,12 @@ const ProjectDetails = () => {
                   efficiency working with MQTT/MQTT-SN.
                 </p>
               </div>
+              <h6 className="uppercase">
+                <span>
+                  <i className="fa-solid fa-gears" />
+                </span>
+                Tech Stack
+              </h6>
               <div className="col sub-text-font">
                 <ul>
                   <li>Go</li>
