@@ -1,7 +1,6 @@
 import { memo, useContext, useEffect, useState } from "react";
 import { Context } from "../context/context";
-
-import dynamic from "next/dynamic";
+import M from "materialize-css";
 import Image from "next/image";
 
 import imageProject1d from '../../public/images/projects/project-1-d.png';
@@ -15,10 +14,6 @@ import imageProject8d from '../../public/images/projects/project-8-d.png';
 import imageProject9d from '../../public/images/projects/project-9-d.png';
 import imageClose from '../../public/images/close-button.png';
 
-const ProjectSlider = dynamic(() => import("./ItemDetailsContent"), {
-  ssr: false,
-});
-
 const ProjectDetails = () => {
   const {
     activeProject,
@@ -28,6 +23,7 @@ const ProjectDetails = () => {
   } = useContext(Context);
   const [length, setLength] = useState(null);
   useEffect(() => {
+    M.AutoInit();
     setLength(document.querySelectorAll("#bl-panel-work-items>div").length);
   }, []);
 
