@@ -1,12 +1,18 @@
 import { memo, useContext, useEffect, useState } from "react";
 import { Context } from "../context/context";
-// import { LocalVideo } from "./ItemDetailsContent";
+import M from "materialize-css";
+import Image from "next/image";
 
-import dynamic from "next/dynamic";
-
-const ProjectSlider = dynamic(() => import("./ItemDetailsContent"), {
-  ssr: false,
-});
+import imageProject1d from '../../public/images/projects/project-1-d.png';
+import imageProject2d from '../../public/images/projects/project-2-d.png';
+import imageProject3d from '../../public/images/projects/project-3-d.png';
+import imageProject4d from '../../public/images/projects/project-4-d.png';
+import imageProject5d from '../../public/images/projects/project-5-d.png';
+import imageProject6d from '../../public/images/projects/project-6-d.png';
+import imageProject7d from '../../public/images/projects/project-7-d.png';
+import imageProject8d from '../../public/images/projects/project-8-d.png';
+import imageProject9d from '../../public/images/projects/project-9-d.png';
+import imageClose from '../../public/images/close-button.png';
 
 const ProjectDetails = () => {
   const {
@@ -17,6 +23,7 @@ const ProjectDetails = () => {
   } = useContext(Context);
   const [length, setLength] = useState(null);
   useEffect(() => {
+    M.AutoInit();
     setLength(document.querySelectorAll("#bl-panel-work-items>div").length);
   }, []);
 
@@ -35,13 +42,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-1-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject1d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -87,13 +94,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-2-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject2d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -140,13 +147,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-3-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject3d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -179,18 +186,18 @@ const ProjectDetails = () => {
         data-panel="panel-4"
         className={activeProject == 4 ? "bl-show-work" : ""}
       >
-       <div className="col">
+        <div className="col">
           {/* Project Information Starts */}
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-4-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject4d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -203,7 +210,7 @@ const ProjectDetails = () => {
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                Semi-truck controls application (built with C#, WinForms, XML,
+                  Semi-truck controls application (built with C#, WinForms, XML,
                   and serial comms) used to program {`truck's`} dashboard
                   various signal lights at manufacturing plant.
                 </p>
@@ -234,13 +241,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-5-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject5d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -253,7 +260,7 @@ const ProjectDetails = () => {
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                Pipe integrity analysis application processing/graphing up to
+                  Pipe integrity analysis application processing/graphing up to
                   four channels of streaming data simultaneously.
                 </p>
               </div>
@@ -282,13 +289,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-6-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject6d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -301,7 +308,7 @@ const ProjectDetails = () => {
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                Web-base excel like application to optimize the merchandise
+                  Web-base excel like application to optimize the merchandise
                   quantities in {`"case pack"`} orders.
                 </p>
               </div>
@@ -330,13 +337,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-7-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject7d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -349,7 +356,7 @@ const ProjectDetails = () => {
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                POC for agricultural environmental controls with IoT devices
+                  POC for agricultural environmental controls with IoT devices
                   logging to cloud datastore with companion dashboard to
                   interpret logged data.
                 </p>
@@ -380,13 +387,13 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-8-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject8d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
@@ -399,7 +406,7 @@ const ProjectDetails = () => {
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                POC to evaluate the OpenFMB {`protocol's`} compatibility and
+                  POC to evaluate the OpenFMB {`protocol's`} compatibility and
                   efficiency working with MQTT/MQTT-SN.
                 </p>
               </div>
@@ -426,26 +433,26 @@ const ProjectDetails = () => {
           <div className="row project-info">
             {/* Project Pic Starts */}
             <div className="col s12 m6 l6 xl6 section-padding-right-none">
-              <picture>
-                <img
-                  className="responsive-img project-detail-panel-image"
-                  src="images/projects/project-9-d.png"
-                  alt="Project"
-                />
-              </picture>
+
+              <Image
+                className="responsive-img project-detail-panel-image"
+                src={imageProject9d}
+                alt="Project"
+              />
+
             </div>
             {/* Project Pic Ends */}
             {/* Project Content Starts */}
             <div className="col s12 m6 l6 xl6">
               <h3 className="uppercase">
                 <span>
-                  <i className="fa-solid fa-briefcase" />
+                  <i className="fa-solid fa-phone" />
                 </span>
                 {`Let's`} Talk
               </h3>
               <div className="col p-none">
                 <p className="second-font">
-                Have a project to dig into or could use some help with your engineering team? Please reach out! {`I'm`} happy to dive into the details and assist you!
+                  Have a project to dig into or could use some help with your engineering team? Please reach out! {`I'm`} happy to dive into the details and assist you!
                 </p>
               </div>
             </div>
@@ -455,6 +462,7 @@ const ProjectDetails = () => {
         </div>
       </div>
       {/* Project Ends */}
+
       {/* Portfolio Navigation Starts */}
       <nav>
         {/* Previous Work Icon Starts */}
@@ -464,21 +472,19 @@ const ProjectDetails = () => {
             activeProjectFunction(activeProject == 1 ? 1 : activeProject - 1)
           }
         >
-          <i className="fa-solid fa-angle-left"></i>
+          <i alt="previous" className="fa-solid fa-angle-left" />
         </span>
         {/* Previous Work Icon Ends */}
         {/* Close Work Icon Starts */}
-        <picture>
-          <img
-            alt="close"
-            src="images/close-button.png"
-            className="control-button bl-icon-close"
-            onClick={() => {
-              showProjectFunction();
-              activeProjectFunction(null);
-            }}
-          />
-        </picture>
+        <Image
+          alt="close"
+          src={imageClose}
+          className="control-button bl-icon-close"
+          onClick={() => {
+            showProjectFunction();
+            activeProjectFunction(null);
+          }}
+        />
         {/* Close Work Icon Ends */}
         {/* Next Work Icon Starts */}
         <span
@@ -489,7 +495,7 @@ const ProjectDetails = () => {
             )
           }
         >
-          <i className="fa-solid fa-angle-right"></i>
+          <i alt="next" className="fa-solid fa-angle-right" />
         </span>
         {/* Previous Work Icon Ends */}
       </nav>
