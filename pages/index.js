@@ -59,7 +59,7 @@ const Index = () => {
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
                   </li>
-                  <li className="social-icon">
+                  {/* <li className="social-icon">
                     <a
                       href="#"
                       target="_blank"
@@ -67,7 +67,7 @@ const Index = () => {
                     >
                       <i className="fa-brands fa-medium" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
