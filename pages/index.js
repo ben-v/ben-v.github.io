@@ -40,17 +40,17 @@ const Index = () => {
                   </h3>
                 </div>
                 <div className="social">
-                <ul className="list-inline social social-intro center-align p-none">
-                  <li className="social-icon">
-                    <a
-                      href="https://github.com/teqbench"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="fa-brands fa-github"></i>
-                    </a>
-                  </li>
-                  <li className="social-icon">
+                  <ul className="list-inline social social-intro center-align p-none">
+                    <li className="social-icon">
+                      <a
+                        href="https://github.com/teqbench"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fa-brands fa-github"></i>
+                      </a>
+                    </li>
+                    {/* <li className="social-icon">
                     <a
                       href="https://www.linkedin.com/in/benvisintainer"
                       target="_blank"
@@ -59,7 +59,7 @@ const Index = () => {
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
                   </li>
-                  {/* <li className="social-icon">
+                  <li className="social-icon">
                     <a
                       href="#"
                       target="_blank"
@@ -68,8 +68,8 @@ const Index = () => {
                       <i className="fa-brands fa-medium" />
                     </a>
                   </li> */}
-                </ul>
-              </div>
+                  </ul>
+                </div>
 
               </div>
             </div>
