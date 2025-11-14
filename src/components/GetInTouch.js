@@ -21,7 +21,7 @@ const GetInTouch = () => {
       toast.promise(
         emailjs
           .send(
-            "service_0dzhd2z",  // service id
+            "service_bg8jo2e",  // service id
             "template_3t0snwh", // template id
             mailData,
             "cGpfsTEjddquOdhTO" // public api key
@@ -86,6 +86,7 @@ const GetInTouch = () => {
                       <i className="fa-brands fa-github"></i>
                     </a>
                   </li>
+                  {/* 
                   <li className="social-icon">
                     <a
                       href="https://www.linkedin.com/in/benvisintainer"
@@ -95,7 +96,7 @@ const GetInTouch = () => {
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
                   </li>
-                  {/* <li className="social-icon">
+                  <li className="social-icon">
                     <a
                       href="#"
                       target="_blank"
